@@ -1,0 +1,78 @@
+/* Style with blue h1 */
+h1 {
+  color: #2196f3;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Create an style for show lat and long, thats really beautifull, for an h2 */
+h2 {
+  color: #631597;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+#imagem {
+  background-image: url('./a.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+/* Estilo para o botão */
+.utfpr-button {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #004080; /* Cor da UTFPR */
+  color: #ffffff; /* Cor do texto (branco) */
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: 1.5px;
+}
+
+.utfpr-button:hover {
+  background-color: #003366; /* Cor da UTFPR quando o mouse passa por cima */
+}
+
+.utfpr-button:active {
+  background-color: #00264d; /* Cor da UTFPR quando o botão é pressionado */
+}
+
+.popup-content {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #212218; /* Cor do texto */
+}
+
+.popup-content br {
+  margin-bottom: 10px;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: #c6f109 !important;
+}
+
+.leaflet-popup-close-button {
+  margin-top: 3px !important;
+  color: #212218 !important;
+}
