@@ -2,9 +2,7 @@ const h2 = document.querySelector('h2');
 var map;
 
 const InicializarMapa = pos => {
-  var { latitude, longitude } = pos.coords;
-  latitude = -23.1858;
-  longitude = -50.6569;
+  const { latitude, longitude } = pos.coords;
 
   console.log(latitude, longitude);
 
@@ -12,7 +10,7 @@ const InicializarMapa = pos => {
 
   if (map === undefined) {
     map = L.map('mapid', {
-      minZoom: 16,
+      minZoom: 19,
       maxZoom: 20,
     }).setView([latitude, longitude], 18);
   } else {
@@ -286,28 +284,28 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
-  const blocoCc = L.polygon(
-    [
-      [-23.18513, -50.6588],
-      [-23.18502, -50.65752],
-      [-23.18563, -50.65744],
-      [-23.18547, -50.65578],
-      [-23.18613, -50.6557],
-      [-23.18609, -50.65514],
-      [-23.1872, -50.65503],
-      [-23.18733, -50.65651],
-      [-23.18707, -50.65681],
-      [-23.18692, -50.65713],
+  // const blocoCc = L.polygon(
+  //   [
+  //     [-23.18513, -50.6588],
+  //     [-23.18502, -50.65752],
+  //     [-23.18563, -50.65744],
+  //     [-23.18547, -50.65578],
+  //     [-23.18613, -50.6557],
+  //     [-23.18609, -50.65514],
+  //     [-23.1872, -50.65503],
+  //     [-23.18733, -50.65651],
+  //     [-23.18707, -50.65681],
+  //     [-23.18692, -50.65713],
 
-      [-23.18692, -50.65713],
-      [-23.18682, -50.65748],
-      [-23.18687, -50.65859],
-    ],
-    {
-      fillColor: 'yellow',
-      fillOpacity: 0.2,
-    }
-  ).addTo(map);
+  //     [-23.18692, -50.65713],
+  //     [-23.18682, -50.65748],
+  //     [-23.18687, -50.65859],
+  //   ],
+  //   {
+  //     fillColor: 'yellow',
+  //     fillOpacity: 0.2,
+  //   }
+  // ).addTo(map);
 
   const blocoRU = L.polygon(
     [
