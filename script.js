@@ -1,28 +1,37 @@
-let h2 = document.querySelector('h2');
-var map;
+const h2 = document.querySelector('h2');
+let map;
 
-function success(pos) {
-  console.log(-23.186042, -50.657001);
-  h2.textContent = `Latitude:${-23.186042}, Longitude:${-50.657001}`;
+const success = pos => {
+  const { latitude, longitude } = pos.coords;
+  console.log(watchID);
+  console.log(latitude, longitude);
+
+  h2.textContent = `Latitude: ${latitude}, Longitude: ${longitude}`;
 
   if (map === undefined) {
     map = L.map('mapid', {
-      minZoom: 18,
+      minZoom: 19,
       maxZoom: 20,
-    }).setView([-23.186042, -50.657001], 18);
+    }).setView([latitude, longitude], 18);
   } else {
     map.remove();
-    map = L.map('mapid').setView([-23.186042, -50.657001], 30);
+    map = L.map('mapid').setView([latitude, longitude], 30);
   }
 
-  // Adiciona um layer OpenStreetMap
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
     attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    noWrap: true, // impede que o mapa se repita horizontalmente
+      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
 
-  var blocoP = L.polygon(
+  // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  //   maxZoom: 19,
+  //   attribution:
+  //     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  // }).addTo(map);
+
+  // Build bloco P
+  const blocoP = L.polygon(
     [
       [-23.18569, -50.65733],
       [-23.18568, -50.65715],
@@ -30,20 +39,56 @@ function success(pos) {
       [-23.18608, -50.65729],
     ],
     {
-      fillColor: '#90ee90', // verde claro
-      fillOpacity: 1, // 50% de opacidade
+      fillColor: '#90ee90',
+      fillOpacity: 1,
     }
   ).addTo(map);
 
-  blocoP.on('mouseover', function (e) {
+  blocoP.on('mouseover', e => {
     blocoP.setStyle({ fillColor: '#64e864' });
   });
 
-  blocoP.on('mouseout', function (e) {
+  blocoP.on('mouseout', e => {
     blocoP.setStyle({ fillColor: '#90ee90' });
   });
+  // Build bloco D
+  const blocoDa = L.polygon(
+    [
+      [-23.18561, -50.65668],
+      [-23.18569, -50.65656],
+      [-23.18577, -50.65663],
+      [-23.18568, -50.65674],
+    ],
+    {
+      fillColor: '#faae10',
+      fillOpacity: 1,
+    }
+  ).addTo(map);
 
-  var blocoK = L.polygon(
+  // Build bloco D
+  const blocoD = L.polygon(
+    [
+      [-23.18582, -50.65695],
+      [-23.18565, -50.6568],
+      [-23.18574, -50.65668],
+      [-23.18591, -50.65682],
+    ],
+    {
+      fillColor: '#90ee90',
+      fillOpacity: 1,
+    }
+  ).addTo(map);
+
+  blocoD.on('mouseover', e => {
+    blocoD.setStyle({ fillColor: '#64e864' });
+  });
+
+  blocoD.on('mouseout', e => {
+    blocoD.setStyle({ fillColor: '#90ee90' });
+  });
+
+  // Build bloco K
+  const blocoK = L.polygon(
     [
       [-23.18594, -50.65672],
       [-23.18603, -50.65659],
@@ -51,25 +96,26 @@ function success(pos) {
       [-23.18615, -50.6569],
     ],
     {
-      fillColor: '#90ee90', // verde claro
-      fillOpacity: 1, // 50% de opacidade
+      fillColor: '#90ee90',
+      fillOpacity: 1,
     }
   ).addTo(map);
 
-  blocoK.on('mouseover', function (e) {
+  blocoK.on('mouseover', e => {
     blocoK.setStyle({ fillColor: '#64e864' });
   });
 
-  blocoK.on('mouseout', function (e) {
+  blocoK.on('mouseout', e => {
     blocoK.setStyle({ fillColor: '#90ee90' });
   });
 
-  var myIcon = L.icon({
+  // Put icon in map
+  const myIcon = L.icon({
     iconUrl: 'simulator.png',
     iconSize: [15, 20],
   });
 
-  L.marker([-23.186042, -50.657001], { icon: myIcon }).addTo(map);
+  L.marker([latitude, longitude], { icon: myIcon }).addTo(map);
 
   blocoP.bindPopup(
     '<div class="popup-content">' +
@@ -80,7 +126,7 @@ function success(pos) {
       '</div>'
   );
 
-  var polyline = L.polyline(
+  const polyline = L.polyline(
     [
       [-23.1861, -50.65721],
       [-23.18629, -50.65719],
@@ -91,25 +137,23 @@ function success(pos) {
       dashArray: '0.1, 5',
     }
   ).addTo(map);
-}
+};
 
-function mostrarImagem() {
-  // crie o elemento div com a imagem
+const mostrarImagem = () => {
   const divImagem = document.createElement('div');
   divImagem.id = 'imagem';
   document.body.appendChild(divImagem);
 
-  // remova o elemento div quando clicar fora da imagem
-  divImagem.addEventListener('click', function () {
+  divImagem.addEventListener('click', () => {
     document.body.removeChild(divImagem);
-  });
-}
+  }); 
+};
 
-function error(err) {
+const error = err => {
   console.log(err);
-}
+};
 
-var options = {
+const options = {
   enableHighAccuracy: true,
   timeout: 5000,
   maximumAge: 0,
@@ -120,8 +164,8 @@ var options = {
   },
 };
 
-var watchID = navigator.geolocation.getCurrentPosition(success, error, options);
-
-console.log(watchID);
-
-// use navigator
+const watchID = navigator.geolocation.getCurrentPosition(
+  success,
+  error,
+  options
+);
