@@ -2,7 +2,9 @@ const h2 = document.querySelector('h2');
 var map;
 
 const InicializarMapa = pos => {
-  const { latitude, longitude } = pos.coords;
+  var { latitude, longitude } = pos.coords;
+  latitude = -23.18591;
+  longitude = -50.65721;
 
   console.log(latitude, longitude);
 
@@ -10,7 +12,7 @@ const InicializarMapa = pos => {
 
   if (map === undefined) {
     map = L.map('mapid', {
-      minZoom: 19,
+      minZoom: 17,
       maxZoom: 20,
     }).setView([latitude, longitude], 18);
   } else {
@@ -29,6 +31,46 @@ const InicializarMapa = pos => {
     attribution:
       '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
+
+  // you can set .my-div-icon styles in CSS
+  //put html inside the icon
+  // var myIcon2 = L.divIcon({
+  //   className: 'my-div-icon',
+  //   html: '<p>K</p>',
+  //   offset: [10, 10],
+  // });
+
+  // L.marker([-23.18602, -50.65721], { icon: myIcon2 }).addTo(map);
+  // Put icon in map
+  const myIcon = L.icon({
+    iconUrl: 'simulator.png',
+    iconSize: [15, 20],
+  });
+
+  L.marker([latitude, longitude], { icon: myIcon }).addTo(map);
+
+  const blocoCc = L.polygon(
+    [
+      [-23.18513, -50.6588],
+      [-23.18502, -50.65752],
+      [-23.18563, -50.65744],
+      [-23.18547, -50.65578],
+      [-23.18613, -50.6557],
+      [-23.18609, -50.65514],
+      [-23.1872, -50.65503],
+      [-23.18733, -50.65651],
+      [-23.18707, -50.65681],
+      [-23.18692, -50.65713],
+
+      [-23.18692, -50.65713],
+      [-23.18682, -50.65748],
+      [-23.18687, -50.65859],
+    ],
+    {
+      fillColor: 'yellow',
+      fillOpacity: 0.2,
+    }
+  ).addTo(map);
 
   // Build bloco P
   const blocoP = L.polygon(
@@ -51,6 +93,16 @@ const InicializarMapa = pos => {
   blocoP.on('mouseout', e => {
     blocoP.setStyle({ fillColor: '#90ee90' });
   });
+
+  blocoP.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco K. <br>' +
+      '<button onclick="mostrarImagem()" class="utfpr-button">2°Andar</button> <br>' +
+      '<button onclick="mostrarImagem()" class="utfpr-button">1°Andar</button> <br>' +
+      '<button onclick="mostrarImagem()" class="utfpr-button">Térreo</button>' +
+      '</div>'
+  );
+
   // Build bloco D
   // cima,baixo -23.18560, esquerda,direita -50.65668
   const blocoDa = L.polygon(
@@ -239,6 +291,12 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  blocoR.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco R <br> <p>Bloco em Manutenção</p>' +
+      '</div>'
+  );
+
   const blocoM = L.polygon(
     [
       [-23.18554, -50.65632],
@@ -283,29 +341,6 @@ const InicializarMapa = pos => {
       fillOpacity: 1,
     }
   ).addTo(map);
-
-  // const blocoCc = L.polygon(
-  //   [
-  //     [-23.18513, -50.6588],
-  //     [-23.18502, -50.65752],
-  //     [-23.18563, -50.65744],
-  //     [-23.18547, -50.65578],
-  //     [-23.18613, -50.6557],
-  //     [-23.18609, -50.65514],
-  //     [-23.1872, -50.65503],
-  //     [-23.18733, -50.65651],
-  //     [-23.18707, -50.65681],
-  //     [-23.18692, -50.65713],
-
-  //     [-23.18692, -50.65713],
-  //     [-23.18682, -50.65748],
-  //     [-23.18687, -50.65859],
-  //   ],
-  //   {
-  //     fillColor: 'yellow',
-  //     fillOpacity: 0.2,
-  //   }
-  // ).addTo(map);
 
   const blocoRU = L.polygon(
     [
@@ -398,23 +433,6 @@ const InicializarMapa = pos => {
   blocoK.on('mouseout', e => {
     blocoK.setStyle({ fillColor: '#90ee90' });
   });
-
-  // Put icon in map
-  const myIcon = L.icon({
-    iconUrl: 'simulator.png',
-    iconSize: [15, 20],
-  });
-
-  L.marker([latitude, longitude], { icon: myIcon }).addTo(map);
-
-  blocoP.bindPopup(
-    '<div class="popup-content">' +
-      'Bloco K. <br>' +
-      '<button onclick="mostrarImagem()" class="utfpr-button">2°Andar</button> <br>' +
-      '<button onclick="mostrarImagem()" class="utfpr-button">1°Andar</button> <br>' +
-      '<button onclick="mostrarImagem()" class="utfpr-button">Térreo</button>' +
-      '</div>'
-  );
 
   const polyline = L.polyline(
     [
