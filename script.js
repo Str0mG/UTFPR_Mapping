@@ -18,17 +18,17 @@ const InicializarMapa = pos => {
     map = L.map('mapid').setView([latitude, longitude], 30);
   }
 
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution:
-      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  }).addTo(map);
-
-  // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  // L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   //   maxZoom: 19,
   //   attribution:
   //     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   // }).addTo(map);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution:
+      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(map);
 
   // Build bloco P
   const blocoP = L.polygon(
@@ -162,7 +162,7 @@ const InicializarMapa = pos => {
       [-23.186501, -50.656508],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#993366',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -175,7 +175,7 @@ const InicializarMapa = pos => {
       [-23.18678, -50.65726],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#ff66ff',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -188,7 +188,7 @@ const InicializarMapa = pos => {
       [-23.18674, -50.65678],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#ff9966',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -201,7 +201,7 @@ const InicializarMapa = pos => {
       [-23.18729, -50.65654],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#6699ff',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -214,7 +214,7 @@ const InicializarMapa = pos => {
       [-23.18726, -50.65629],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#b30059',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -266,7 +266,7 @@ const InicializarMapa = pos => {
       [-23.18577, -50.65599],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#00ccff',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -279,7 +279,7 @@ const InicializarMapa = pos => {
       [-23.18659, -50.6586],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#ffff00',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -321,7 +321,7 @@ const InicializarMapa = pos => {
       [-23.1865, -50.65609],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#ff3399',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -350,7 +350,7 @@ const InicializarMapa = pos => {
     ],
     {
       color: 'blue',
-      fillColor: '#0a999a',
+      fillColor: '#669999',
       fillOpacity: 1,
     }
   ).addTo(map);
