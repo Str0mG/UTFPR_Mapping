@@ -486,36 +486,35 @@ const closeNav = () => {
     'block';
 };
 
-const mostrarInfo = (identificador, andar) => {
-  var informacoesDiv = document.getElementById('informacoes');
-
-  if (identificador == 'blocoA') {
-    if (andar == 1) {
-      informacoesDiv.innerHTML = '<h1>Bloco A</h1><p>Este é o bloco A</p>';
-    } else if (andar == 2) {
-      informacoesDiv.innerHTML = '<h1>Bloco A</h1><p>Este é o bloco A</p>';
-    } else if (andar == 3) {
-      informacoesDiv.innerHTML = '<h1>Bloco A</h1><p>Este é o bloco A</p>';
-    }
-  } else if (identificador == 'blocoB') {
-    if (andar == 1) {
-      informacoesDiv.innerHTML = '<h1>Bloco B</h1><p>Este é o bloco B</p>';
-    }
-  } else if (identificador == 'blocoC') {
-    if (andar == 1) {
-      informacoesDiv.innerHTML = '<h1>Bloco C</h1><p>Este é o bloco C</p>';
-    }
-  } else if (identificador == 'blocoD') {
-    if (andar == 1) {
-      informacoesDiv.innerHTML = '<h1>Bloco D</h1><p>Este é o bloco D</p>';
-    }
-  } else if (identificador == 'blocoE') {
-    if (andar == 1) {
-      informacoesDiv.innerHTML = '<h1>Bloco E</h1><p>Este é o bloco E</p>';
-    }
-  } else if (identificador == 'blocoF') {
-    if (andar == 1) {
-      informacoesDiv.innerHTML = '<h1>Bloco F</h1><p>Este é o bloco F</p>';
-    }
-  }
+const mostrarInfo = () => {
+  // var informacoesDiv = document.getElementById('informacoes');
+  // if (identificador == 'blocoA') {
+  //   if (andar == 1) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco A</h1><p>Este é o bloco A</p>';
+  //   } else if (andar == 2) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco A</h1><p>Este é o bloco A</p>';
+  //   } else if (andar == 3) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco A</h1><p>Este é o bloco A</p>';
+  //   }
+  // } else if (identificador == 'blocoB') {
+  //   if (andar == 1) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco B</h1><p>Este é o bloco B</p>';
+  //   }
+  // } else if (identificador == 'blocoC') {
+  //   if (andar == 1) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco C</h1><p>Este é o bloco C</p>';
+  //   }
+  // } else if (identificador == 'blocoD') {
+  //   if (andar == 1) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco D</h1><p>Este é o bloco D</p>';
+  //   }
+  // } else if (identificador == 'blocoE') {
+  //   if (andar == 1) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco E</h1><p>Este é o bloco E</p>';
+  //   }
+  // } else if (identificador == 'blocoF') {
+  //   if (andar == 1) {
+  //     informacoesDiv.innerHTML = '<h1>Bloco F</h1><p>Este é o bloco F</p>';
+  //   }
+  // }
 };
