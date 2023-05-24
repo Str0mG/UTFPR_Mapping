@@ -18,6 +18,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 
 .sidenav a {
@@ -36,9 +37,9 @@ body {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 10px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 @media screen and (max-height: 450px) {
@@ -169,7 +170,7 @@ body {
   position: absolute;
   top: 20px;
   left: 90px;
-  z-index: 9999;
+  z-index: 998;
 }
 
 #search-input {

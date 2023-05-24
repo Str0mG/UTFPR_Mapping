@@ -477,11 +477,16 @@ const watchPOS = navigator.geolocation.getCurrentPosition(
 const openNav = () => {
   document.getElementById('mySidenav').style.width = '250px';
   document.getElementsByClassName('search-container')[0].style.display = 'none';
+  document.getElementsByClassName('accordion-item')[0].style.display = 'block';
+  document.getElementsByClassName('accordion-item')[1].style.display = 'block';
+  document.getElementsByClassName('accordion-item')[2].style.display = 'block';
 };
 
 const closeNav = () => {
   document.getElementById('mySidenav').style.width = '0';
-
+  document.getElementsByClassName('accordion-item')[0].style.display = 'none';
+  document.getElementsByClassName('accordion-item')[1].style.display = 'none';
+  document.getElementsByClassName('accordion-item')[2].style.display = 'none';
   document.getElementsByClassName('search-container')[0].style.display =
     'block';
 };
