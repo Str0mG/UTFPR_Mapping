@@ -1,5 +1,8 @@
+var map;
+var L;
+var blocoP;
+
 const InicializarMapa = pos => {
-  var map;
   var { latitude, longitude } = pos.coords;
   latitude = -23.18591;
   longitude = -50.65721;
@@ -38,13 +41,13 @@ const InicializarMapa = pos => {
 
   // L.marker([-23.18602, -50.65721], { icon: myIcon2 }).addTo(map);
   // Put icon in map
+
   const myIcon = L.icon({
     iconUrl: 'simulator.png',
     iconSize: [15, 20],
   });
 
   L.marker([latitude, longitude], { icon: myIcon }).addTo(map);
-
   const blocoCc = L.polygon(
     [
       [-23.18513, -50.6588],
@@ -69,7 +72,7 @@ const InicializarMapa = pos => {
   ).addTo(map);
 
   // Build bloco P
-  const blocoP = L.polygon(
+  blocoP = L.polygon(
     [
       [-23.18569, -50.65733],
       [-23.18568, -50.65715],
@@ -92,13 +95,12 @@ const InicializarMapa = pos => {
 
   blocoP.bindPopup(
     '<div class="popup-content">' +
-      'Bloco K. <br>' +
+      'Bloco P. <br>' +
       '<button onclick="mostrarImagem()" class="utfpr-button">2°Andar</button> <br>' +
       '<button onclick="mostrarImagem()" class="utfpr-button">1°Andar</button> <br>' +
       '<button onclick="mostrarImagem()" class="utfpr-button">Térreo</button>' +
       '</div>'
   );
-
   // Build bloco D
   // cima,baixo -23.18560, esquerda,direita -50.65668
   const blocoDa = L.polygon(
@@ -441,6 +443,8 @@ const InicializarMapa = pos => {
       dashArray: '0.1, 5',
     }
   ).addTo(map);
+
+  return map;
 };
 
 const mostrarImagem = () => {
@@ -522,4 +526,70 @@ const mostrarInfo = () => {
   //     informacoesDiv.innerHTML = '<h1>Bloco F</h1><p>Este é o bloco F</p>';
   //   }
   // }
+};
+
+// Função para buscar a chave no JSON
+const buscarChaveNoJSON = chave => {
+  // Faça uma requisição HTTP para carregar o arquivo JSON
+  fetch('./bd.json')
+    .then(response => response.json())
+    .then(data => {
+      // Verifique se a chave existe no JSON
+      if (data[chave]) {
+        exibirResultado(data[chave]);
+      } else {
+        exibirResultado('Bloco não encontrado.');
+      }
+    })
+    .catch(error => {
+      console.error('Erro ao carregar o arquivo JSON:', error);
+    });
+};
+
+var marker2;
+
+// Função para exibir o resultado da busca
+const exibirResultado = resultado => {
+  if (marker2) {
+    map.removeLayer(marker2);
+  }
+  if (resultado === 'Bloco não encontrado.') {
+    document.getElementById('search-response').style.color = 'red';
+    document.getElementById('search-response').innerHTML = resultado;
+  } else {
+    document.getElementById('search-response').style.color = 'black';
+    document.getElementById('search-response').innerHTML = resultado.nome;
+    // se ja existir marker n precisa criar outro
+
+    marker2 = L.marker([-23.18591, -50.65721]);
+    marker2.bindPopup(resultado.nome);
+    marker2.addTo(map);
+  }
+};
+
+// Capturar o evento de clique no botão de pesquisa
+document
+  .getElementById('search-button')
+  .addEventListener('click', function (event) {
+    event.preventDefault(); // Impede o comportamento padrão do botão
+
+    // Capturar o valor digitado na barra de pesquisa
+    const chave = document.getElementById('search-input').value;
+
+    // Realizar a busca no JSON
+    buscarChaveNoJSON(chave);
+  });
+
+// Abrir o modal
+function openModal() {
+  const Image = './a.png';
+  document.getElementById('modal-image').src = Image;
+  document.getElementById('modal-title').innerText = 'Boloco S';
+  document.getElementById('modal-description').innerText = 'aaaaaaa';
+  document.getElementById('modal').style.display = 'block';
+}
+
+// Fechar o modal
+document.getElementsByClassName('close')[0].onclick = function () {
+  document.getElementById('modal').style.display = 'none';
 };
