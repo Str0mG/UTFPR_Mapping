@@ -1,7 +1,10 @@
 {
-  "s009": {
+  "S009": {
     "nome": "Laboratório de Integração e Sintese",
-    "descricao": "BLOCOS"
+    "descricao": "BLOCOS",
+    "info":"",
+    "URLBLOCO": "./assets/imgBloco/B.png",
+    "URLPISO": "./assets/imgPISO/a.png"
   },
   "s008": {
     "nome": "Almoxarifado",

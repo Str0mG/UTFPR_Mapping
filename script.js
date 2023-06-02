@@ -560,7 +560,7 @@ const exibirResultado = resultado => {
     document.getElementById('search-response').style.color = 'black';
     document.getElementById('search-response').innerHTML = resultado.nome;
     // se ja existir marker n precisa criar outro
-
+    openModal(resultado.nome, resultado.URLPISO, resultado.URLBLOCO);
     marker2 = L.marker([-23.18591, -50.65721]);
     marker2.bindPopup(resultado.nome);
     marker2.addTo(map);
@@ -581,12 +581,14 @@ document
   });
 
 // Abrir o modal
-function openModal() {
+function openModal(Nome, piso, bloco) {
   const Image = './a.png';
-  document.getElementById('modal-image').src = Image;
-  document.getElementById('modal-title').innerText = 'Boloco S';
-  document.getElementById('modal-description').innerText = 'aaaaaaa';
   document.getElementById('modal').style.display = 'block';
+  document.getElementById('modal-image').src = piso;
+  document.getElementById('modal-title').innerText = 'Bloco S';
+  document.getElementById('modal-description').innerText = Nome;
+  document.getElementById('modal').style.display = 'block';
+  document.getElementById('modal-image-floor').src = bloco;
 }
 
 // Fechar o modal

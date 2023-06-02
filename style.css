@@ -212,32 +212,33 @@ body {
   max-width: 300px;
 }
 
-.modal {
+#modal {
   display: none;
   position: fixed;
   z-index: 1;
-  left: 0;
+  left: 50px;
   top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 99vh;
+  overflow: hidden;
 }
 
-.modal-content {
+#modal-content {
   background-color: #fefefe;
-  margin: 10% auto;
+
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 100%;
+  height: 100%;
+  margin: 30px;
 }
 
 .close {
   color: #aaa;
-  float: right;
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
+  margin: 20px;
 }
 
 .close:hover,
@@ -247,13 +248,13 @@ body {
   cursor: pointer;
 }
 
-.modal-image {
-  max-width: 100%;
+#modal-image {
+  max-width: 300px;
   height: auto;
 }
 
-.modal-image-floor {
-  max-width: 100%;
+#modal-image-floor {
+  max-width: 300px;
   height: auto;
   margin-top: 20px;
 }
