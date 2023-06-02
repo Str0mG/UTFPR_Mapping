@@ -1,6 +1,31 @@
 var map;
 var L;
-var blocoP;
+var blocoA,
+  blocoB,
+  blocoC,
+  blocoD,
+  blocoE,
+  blocoF,
+  blocoG,
+  blocoH,
+  blocoI,
+  blocoJ,
+  blocoK,
+  blocoL,
+  blocoM,
+  blocoN,
+  blocoO,
+  blocoP,
+  blocoQ,
+  blocoR,
+  blocoS,
+  blocoT,
+  blocoU,
+  blocoV,
+  blocoW,
+  blocoX,
+  blocoY,
+  blocoZ;
 
 const InicializarMapa = pos => {
   var { latitude, longitude } = pos.coords;
@@ -66,8 +91,7 @@ const InicializarMapa = pos => {
       [-23.18687, -50.65859],
     ],
     {
-      fillColor: 'yellow',
-      fillOpacity: 0.2,
+      fillColor: '#feff00',
     }
   ).addTo(map);
 
@@ -80,27 +104,29 @@ const InicializarMapa = pos => {
       [-23.18608, -50.65729],
     ],
     {
-      fillColor: '#90ee90',
+      fillColor: '#ECEFF1 ',
       fillOpacity: 1,
     }
   ).addTo(map);
 
   blocoP.on('mouseover', e => {
-    blocoP.setStyle({ fillColor: '#64e864' });
+    blocoP.setStyle({ fillColor: '#ECEFf9' });
   });
 
   blocoP.on('mouseout', e => {
-    blocoP.setStyle({ fillColor: '#90ee90' });
+    blocoP.setStyle({ fillColor: '#ECEFF1' });
   });
 
   blocoP.bindPopup(
     '<div class="popup-content">' +
-      'Bloco P. <br>' +
-      '<button onclick="mostrarImagem()" class="utfpr-button">2°Andar</button> <br>' +
-      '<button onclick="mostrarImagem()" class="utfpr-button">1°Andar</button> <br>' +
-      '<button onclick="mostrarImagem()" class="utfpr-button">Térreo</button>' +
-      '</div>'
+      'Bloco P  <br>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'S009\', blocoP); })()" class="utfpr-button">2° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'S009\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'S009\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
   );
+
   // Build bloco D
   // cima,baixo -23.18560, esquerda,direita -50.65668
   const blocoDa = L.polygon(
@@ -111,7 +137,7 @@ const InicializarMapa = pos => {
       [-23.18568, -50.65675],
     ],
     {
-      fillColor: '#faae10',
+      fillColor: '#E0E0E0',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -124,7 +150,7 @@ const InicializarMapa = pos => {
       [-23.18581, -50.65667],
     ],
     {
-      fillColor: '#baae10',
+      fillColor: '#F5F5F5 ',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -137,7 +163,7 @@ const InicializarMapa = pos => {
       [-23.186047, -50.656368],
     ],
     {
-      fillColor: '#4aae10',
+      fillColor: '#F1F8E9',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -158,7 +184,7 @@ const InicializarMapa = pos => {
       [-23.186274, -50.656089],
     ],
     {
-      fillColor: '#aa123a',
+      fillColor: '#F1F8E9',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -172,7 +198,7 @@ const InicializarMapa = pos => {
       [-23.186392, -50.655676],
     ],
     {
-      fillColor: '#5a123a',
+      fillColor: '#FAFAFA',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -186,7 +212,7 @@ const InicializarMapa = pos => {
       [-23.186343, -50.656722],
     ],
     {
-      fillColor: '#2a123a',
+      fillColor: '#F3E5F5',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -199,7 +225,7 @@ const InicializarMapa = pos => {
       [-23.186422, -50.65661],
     ],
     {
-      fillColor: '#fa123a',
+      fillColor: '#F5F5F5',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -212,7 +238,7 @@ const InicializarMapa = pos => {
       [-23.186501, -50.656508],
     ],
     {
-      fillColor: '#993366',
+      fillColor: '#F2F2F2',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -225,7 +251,7 @@ const InicializarMapa = pos => {
       [-23.18678, -50.65726],
     ],
     {
-      fillColor: '#ff66ff',
+      fillColor: '#D3D3D3',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -238,7 +264,7 @@ const InicializarMapa = pos => {
       [-23.18674, -50.65678],
     ],
     {
-      fillColor: '#ff9966',
+      fillColor: '#F8F8F8',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -251,7 +277,7 @@ const InicializarMapa = pos => {
       [-23.18729, -50.65654],
     ],
     {
-      fillColor: '#6699ff',
+      fillColor: '#F0F0F0',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -264,14 +290,14 @@ const InicializarMapa = pos => {
       [-23.18726, -50.65629],
     ],
     {
-      fillColor: '#b30059',
+      fillColor: '#EBEBEB',
       fillOpacity: 1,
     }
   ).addTo(map);
 
   const Anfiteatro = L.circle([-23.1865, -50.65587], {
-    color: 'blue',
-    fillColor: 'yellow',
+    color: '#999999',
+    fillColor: '#F4F4F4',
     fillOpacity: 1,
     radius: 12,
   }).addTo(map);
@@ -284,7 +310,7 @@ const InicializarMapa = pos => {
       [-23.18667, -50.65571],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#EFEFEF',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -305,7 +331,7 @@ const InicializarMapa = pos => {
       [-23.18563, -50.6564],
     ],
     {
-      fillColor: '#0a999a',
+      fillColor: '#F7F7F7',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -322,7 +348,7 @@ const InicializarMapa = pos => {
       [-23.18577, -50.65599],
     ],
     {
-      fillColor: '#00ccff',
+      fillColor: '#E6E6E6',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -335,7 +361,7 @@ const InicializarMapa = pos => {
       [-23.18659, -50.6586],
     ],
     {
-      fillColor: '#ffff00',
+      fillColor: '#CCCCCC',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -354,7 +380,7 @@ const InicializarMapa = pos => {
       [-23.1865, -50.65609],
     ],
     {
-      fillColor: '#ff3399',
+      fillColor: '#F6F6F6',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -382,8 +408,8 @@ const InicializarMapa = pos => {
       [-23.18643, -50.65848],
     ],
     {
-      color: 'blue',
-      fillColor: '#669999',
+      color: '#999999',
+      fillColor: '#E5E5E5 ',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -397,17 +423,17 @@ const InicializarMapa = pos => {
       [-23.18591, -50.65682],
     ],
     {
-      fillColor: '#90ee90',
+      fillColor: '#E5E5E5 ',
       fillOpacity: 1,
     }
   ).addTo(map);
 
   blocoD.on('mouseover', e => {
-    blocoD.setStyle({ fillColor: '#64e864' });
+    blocoD.setStyle({ fillColor: '#E5E5E9 ' });
   });
 
   blocoD.on('mouseout', e => {
-    blocoD.setStyle({ fillColor: '#90ee90' });
+    blocoD.setStyle({ fillColor: '#E5E5E5' });
   });
 
   // Build bloco K
@@ -419,17 +445,17 @@ const InicializarMapa = pos => {
       [-23.18615, -50.6569],
     ],
     {
-      fillColor: '#90ee90',
+      fillColor: '#E5E5E5 ',
       fillOpacity: 1,
     }
   ).addTo(map);
 
   blocoK.on('mouseover', e => {
-    blocoK.setStyle({ fillColor: '#64e864' });
+    blocoK.setStyle({ fillColor: '#E5E5E9' });
   });
 
   blocoK.on('mouseout', e => {
-    blocoK.setStyle({ fillColor: '#90ee90' });
+    blocoK.setStyle({ fillColor: '#E5E5E5' });
   });
 
   const polyline = L.polyline(
@@ -529,7 +555,20 @@ const mostrarInfo = () => {
 };
 
 // Função para buscar a chave no JSON
-const buscarChaveNoJSON = chave => {
+const buscarChaveNoJSON = (chave, botao) => {
+  document.getElementById('search-input').value = '';
+
+  if (document.getElementById('search-response').innerHTML !== '') {
+    document.getElementById('search-response').innerHTML = '';
+  }
+
+  if (document.getElementById('modal').style.display !== 'none') {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+  if (botao) {
+    botao.closePopup();
+  }
   // Faça uma requisição HTTP para carregar o arquivo JSON
   fetch('./bd.json')
     .then(response => response.json())
@@ -553,12 +592,11 @@ const exibirResultado = resultado => {
   if (marker2) {
     map.removeLayer(marker2);
   }
+
   if (resultado === 'Bloco não encontrado.') {
     document.getElementById('search-response').style.color = 'red';
     document.getElementById('search-response').innerHTML = resultado;
   } else {
-    document.getElementById('search-response').style.color = 'black';
-    document.getElementById('search-response').innerHTML = resultado.nome;
     // se ja existir marker n precisa criar outro
     openModal(resultado.nome, resultado.URLPISO, resultado.URLBLOCO);
     marker2 = L.marker([-23.18591, -50.65721]);
@@ -594,4 +632,15 @@ function openModal(Nome, piso, bloco) {
 // Fechar o modal
 document.getElementsByClassName('close')[0].onclick = function () {
   document.getElementById('modal').style.display = 'none';
+};
+
+// Fechar o modal
+document.getElementsByClassName('openbtn')[0].onclick = function () {
+  if (document.getElementById('search-response').innerHTML !== '') {
+    document.getElementById('search-response').innerHTML = '';
+  }
+  if (document.getElementById('modal').style.display !== 'none') {
+    document.getElementById('modal').style.display = 'none';
+  }
+  openNav();
 };

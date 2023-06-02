@@ -111,9 +111,11 @@ h2 {
 
 /* Estilo para o botão */
 .utfpr-button {
+  width: 201.09px;
+  height: 40px;
   display: inline-block;
   padding: 6px 12px;
-  background-color: #004080; /* Cor da UTFPR */
+  background-color: #ffbd59; /* Cor da UTFPR */
   color: #ffffff; /* Cor do texto (branco) */
   font-size: 14px;
   border: none;
@@ -126,27 +128,23 @@ h2 {
 }
 
 .utfpr-button:hover {
-  background-color: #003366; /* Cor da UTFPR quando o mouse passa por cima */
-}
-
-.utfpr-button:active {
-  background-color: #00264d; /* Cor da UTFPR quando o botão é pressionado */
+  background-color: hsl(
+    40,
+    100%,
+    70%
+  ); /* Cor da UTFPR quando o mouse passa por cima */
 }
 
 .popup-content {
+  font-weight: bold;
   text-align: center;
   font-size: 18px;
-  margin-bottom: 10px;
   color: #212218; /* Cor do texto */
-}
-
-.popup-content br {
-  margin-bottom: 10px;
 }
 
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-  background-color: #c6f109 !important;
+  background-color: #ffffff !important;
 }
 
 .leaflet-popup-close-button {
@@ -164,6 +162,7 @@ h2 {
 
 body {
   position: relative;
+  overflow: hidden;
 }
 
 .search-container {

@@ -49,13 +49,7 @@
     <div id="mapid"></div>
     <!-- Criar um botao style absolute in right -->
 
-    <div
-      class="btn-group-vertical"
-      style="position: absolute; top: 0; right: 0">
-      <button type="button" class="btn btn-primary" onclick="openModal()">
-        Menu
-      </button>
-    </div>
+    
 
     <!-- Modal -->
     <div id="modal" class="modal">
@@ -69,13 +63,14 @@
       </div>
     </div>
 
-    <span class="openbtn" onclick="openNav()">&#9776;</span>
     <div class="search-container">
       <input type="text" id="search-input" placeholder="Digite sua pesquisa" />
       <button id="search-button">Pesquisar</button>
       <!-- Resposta da pesquisa -->
       <div id="search-response"></div>
     </div>
+
+    <span class="openbtn">&#9776;</span>
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
@@ -101,9 +96,15 @@
             aria-labelledby="flush-headingOne"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              first item's accordion body.
+              <ul class="list-group">
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('S009'), closeNav()">
+                  1 andar
+                </li>
+                <li class="list-group-item">2 andar</li>
+                <li class="list-group-item">Térreo</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -125,10 +126,11 @@
             aria-labelledby="flush-headingTwo"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content.
+              <ul class="list-group">
+                <li class="list-group-item">1 andar</li>
+                <li class="list-group-item">2 andar</li>
+                <li class="list-group-item">Térreo</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -150,12 +152,11 @@
             aria-labelledby="flush-headingThree"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third item's accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+              <ul class="list-group">
+                <li class="list-group-item">1 andar</li>
+                <li class="list-group-item">2 andar</li>
+                <li class="list-group-item">Térreo</li>
+              </ul>
             </div>
           </div>
         </div>
