@@ -1,0 +1,458 @@
+{
+  "S009": {
+    "nome": "Laboratório de Integração e Sintese",
+    "descricao": "BLOCOS",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
+    "URLPISO": "./assets/imgPISO/a.png"
+  },
+  "s008": {
+    "nome": "Almoxarifado",
+    "descricao": "BLOCOS"
+  },
+  "s007": {
+    "nome": "Almoxarifado",
+    "descricao": "BLOCOS"
+  },
+  "s006": {
+    "nome": "Laboratório de Redes Industriais",
+    "descricao": "BLOCOS"
+  },
+  "s005": {
+    "nome": "Laboratório de Sistema de Energia",
+    "descricao": "BLOCOS"
+  },
+  "s004": {
+    "nome": "Laboratório de Automação",
+    "descricao": "BLOCOS"
+  },
+  "s003": {
+    "nome": "Laboratório de Instalações Elétricas",
+    "descricao": "BLOCOS"
+  },
+  "s002": {
+    "nome": "Laboratório de Materiais e Luminotécnica",
+    "descricao": "BLOCOS"
+  },
+  "s001": {
+    "nome": "Laboratório de Eletrônica Analógica",
+    "descricao": "BLOCOS"
+  },
+  "s109": {
+    "nome": "Laboratório de Sistemas Embarcados",
+    "descricao": "BLOCOS"
+  },
+  "s108": {
+    "nome": "Almoxarifado",
+    "descricao": "BLOCOS"
+  },
+  "s107": {
+    "nome": "Laboratório de Prototipagem",
+    "descricao": "BLOCOS"
+  },
+  "s106": {
+    "nome": "Laboratório de Sensores Atuadores",
+    "descricao": "BLOCOS"
+  },
+  "s105": {
+    "nome": "Laboratório de Eletrônica de Potência",
+    "descricao": "BLOCOS"
+  },
+  "s104": {
+    "nome": "Laboratório de Circuitos 2",
+    "descricao": "BLOCOS"
+  },
+  "s103": {
+    "nome": "Laboratório de Circuitos 1",
+    "descricao": "BLOCOS"
+  },
+  "s102": {
+    "nome": "Laboratório de Eletrônica Digital",
+    "descricao": "BLOCOS"
+  },
+  "s101": {
+    "nome": "Laboratório de Eletrônica Analógica",
+    "descricao": "BLOCOS"
+  },
+  "s209": {
+    "nome": "Laboratório de Controle Avançado",
+    "descricao": "BLOCOS"
+  },
+  "s208": {
+    "nome": "Sala de Manutenção",
+    "descricao": "BLOCOS"
+  },
+  "s207": {
+    "nome": "Sala de Estudos 24h",
+    "descricao": "BLOCOS"
+  },
+  "s206": {
+    "nome": "Laboratório de Telecomunicações",
+    "descricao": "BLOCOS"
+  },
+  "s205": {
+    "nome": "Laboratório de Transmissão de Dados",
+    "descricao": "BLOCOS"
+  },
+  "s204": {
+    "nome": "Laboratório de Processamento Digitais de Sinais",
+    "descricao": "BLOCOS"
+  },
+  "s203": {
+    "nome": "Laboratório de Instrumentação Biomédica",
+    "descricao": "BLOCOS"
+  },
+  "s202": {
+    "nome": "Sala de Aula",
+    "descricao": "BLOCOS"
+  },
+  "s201": {
+    "nome": "Laboratório de Controle Clássico",
+    "descricao": "BLOCOS"
+  },
+
+  "K001": {
+    "nome": "Sala dos professores de Computação",
+    "descricao": "BLOCOK"
+  },
+  "K002": {
+    "nome": "Sala dos professores de Computação",
+    "descricao": "BLOCOK"
+  },
+  "K003": {
+    "nome": "Sala dos professores de Computação",
+    "descricao": "BLOCOK"
+  },
+  "K004": {
+    "nome": "Sala dos professores de Computação",
+    "descricao": "BLOCOK"
+  },
+  "Secretaria de Pós-Graduação": {
+    "nome": "Secretaria de Pós-Graduação",
+    "descricao": "BLOCOK"
+  },
+  "K005": {
+    "nome": "Sala de Atendimento (DACOM)",
+    "descricao": "BLOCOK"
+  },
+  "K006": {
+    "nome": "Sala dos professores de Computação",
+    "descricao": "BLOCOK"
+  },
+  "K007": {
+    "nome": "Sala dos professores de Computação",
+    "descricao": "BLOCOK"
+  },
+  "K008": {
+    "nome": "Laboratório de Informática",
+    "descricao": "BLOCOK"
+  },
+  "K009": {
+    "nome": "Laboratório de Informática",
+    "descricao": "BLOCOK"
+  },
+
+  "P211": {
+    "nome": "Lab. de Arquitetura de Computadores",
+    "descricao": "BLOCOP"
+  },
+  "P206": {
+    "nome": "Lab. de Bioinformática",
+    "descricao": "BLOCOP"
+  },
+  "P205": {
+    "nome": "Lab. de Informática",
+    "descricao": "BLOCOP"
+  },
+  "P204": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P203": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P202": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "p201": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P111": {
+    "nome": "Lab. de Eletrônica",
+    "descricao": "BLOCOP"
+  },
+  "P106": {
+    "nome": "Lab. Jogos Digitais",
+    "descricao": "BLOCOP"
+  },
+  "P105": {
+    "nome": "Lab. de Informática",
+    "descricao": "BLOCOP"
+  },
+  "P104": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P103": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P102": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P101": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P011": {
+    "nome": "Lab. de Automação",
+    "descricao": "BLOCOP"
+  },
+  "P006": {
+    "nome": "Lab. Sistemas de Humano-Computador",
+    "descricao": "BLOCOP"
+  },
+  "P005": {
+    "nome": "Lab. de Informática",
+    "descricao": "BLOCOP"
+  },
+  "P004": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P003": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P002": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+  "P001": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOP"
+  },
+
+  "H002": {
+    "nome": "Lavatório",
+    "descricao": "BLOCOGHI"
+  },
+  "H003": {
+    "nome": "Laboratório de Manutenção",
+    "descricao": "BLOCOGHI"
+  },
+  "H005": {
+    "nome": "Laboratório de Ajustagem",
+    "descricao": "BLOCOGHI"
+  },
+  "H007": {
+    "nome": "Laboratório de CNC",
+    "descricao": "BLOCOS"
+  },
+  "DCE": {
+    "nome": "Diretório Acadêmico",
+    "descricao": "BLOCOGHI"
+  },
+  "FURIA": {
+    "nome": "Diretório Acadêmico",
+    "descricao": "BLOCOGHI"
+  },
+  "DESEG": {
+    "nome": "Cabine de Transformação",
+    "descricao": "BLOCOGHI"
+  },
+  "I005": {
+    "nome": "Lab. de Termodinâmica e refrigeração",
+    "descricao": "BLOCOGHI"
+  },
+  "I004": {
+    "nome": "Lab. de Transferência de calor e Mecânica dos Fluídos",
+    "descricao": "BLOCOGHI"
+  },
+  "I003": {
+    "nome": "Lab. de Sistemas dinâmicos e Projetos Mecânicos",
+    "descricao": "BLOCOGHI"
+  },
+  "I002": {
+    "nome": "Lab. de Materiais",
+    "descricao": "BLOCOGHI"
+  },
+  "I001": {
+    "nome": "Lab. de Ensaios",
+    "descricao": "BLOCOGHI"
+  },
+  "I106": {
+    "nome": "Coord. de TCC",
+    "descricao": "BLOCOGHI"
+  },
+  "I105": {
+    "nome": "Lab. de Acionamentos Eletrônicos",
+    "descricao": "BLOCOGHI"
+  },
+  "I104": {
+    "nome": "Lab. de Segurança e Iluminação",
+    "descricao": "BLOCOGHI"
+  },
+  "I103": {
+    "nome": "Almoxarifado de materiais Elétricos",
+    "descricao": "BLOCOGHI"
+  },
+  "I102": {
+    "nome": "Lab. de Máquinas Elétricas",
+    "descricao": "BLOCOGHI"
+  },
+  "I101": {
+    "nome": "Lab. de Instalações Elétricas",
+    "descricao": "BLOCOGHI"
+  },
+  "I205": {
+    "nome": "Lab. de Acionamentos Eletrônicos",
+    "descricao": "BLOCOGHI"
+  },
+  "I204": {
+    "nome": "Lab. de Informática Mecânica",
+    "descricao": "BLOCOGHI"
+  },
+  "I203": {
+    "nome": "Lab. de Informática Mecânica",
+    "descricao": "BLOCOGHI"
+  },
+  "I202": {
+    "nome": "Lab. de Informática",
+    "descricao": "BLOCOGHI"
+  },
+  "I201": {
+    "nome": "Lab. de Informática",
+    "descricao": "BLOCOGHI"
+  },
+
+  "G002": {
+    "nome": "Lab. de Hidráulica e Pneumática",
+    "descricao": "BLOCOGHI"
+  },
+  "G005": {
+    "nome": "Lab. de Metrologia",
+    "descricao": "BLOCOGHI"
+  },
+  "G006": {
+    "nome": "Manutenção Elétrica",
+    "descricao": "BLOCOGHI"
+  },
+  "G106": {
+    "nome": "Coord. de Estágio",
+    "descricao": "BLOCOGHI"
+  },
+  "G105": {
+    "nome": "Lab. de Automação e Controle",
+    "descricao": "BLOCOGHI"
+  },
+  "G104": {
+    "nome": "Lab. de Eletrônica",
+    "descricao": "BLOCOGHI"
+  },
+  "G103": {
+    "nome": "Lab. de Instrumentação",
+    "descricao": "BLOCOGHI"
+  },
+  "G102": {
+    "nome": "Lab. de Circuitos",
+    "descricao": "BLOCOGHI"
+  },
+  "G101": {
+    "nome": "Lab. de Circuitos",
+    "descricao": "BLOCOGHI"
+  },
+
+  "A039C": {
+    "nome": "LECAD",
+    "descricao": "BLOCOA"
+  },
+  "GERED": {
+    "nome": "Sala dos Professores de Química",
+    "descricao": "BLOCOA"
+  },
+  "A040": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A039": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A031": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A030": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A028": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "DEAPO": {
+    "nome": "Assistência ai Ensino e Audiovisual",
+    "descricao": "BLOCOA"
+  },
+  "A146": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A145": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A144": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A136": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A135": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A134": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A143": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A142": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A141": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A140": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A038": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A037": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A036": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  },
+  "A035": {
+    "nome": "Sala de Aula Teórica",
+    "descricao": "BLOCOA"
+  }
+}

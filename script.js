@@ -2,6 +2,9 @@ var map;
 var L;
 var blocoA,
   blocoB,
+  blocoDb,
+  blocoDd,
+  blocoDe,
   blocoC,
   blocoD,
   blocoE,
@@ -85,7 +88,6 @@ const InicializarMapa = pos => {
       [-23.18733, -50.65651],
       [-23.18707, -50.65681],
       [-23.18692, -50.65713],
-
       [-23.18692, -50.65713],
       [-23.18682, -50.65748],
       [-23.18687, -50.65859],
@@ -104,44 +106,50 @@ const InicializarMapa = pos => {
       [-23.18608, -50.65729],
     ],
     {
-      fillColor: '#ECEFF1 ',
+      fillColor: 'yellow ',
       fillOpacity: 1,
     }
   ).addTo(map);
 
-  blocoP.on('mouseover', e => {
-    blocoP.setStyle({ fillColor: '#ECEFf9' });
-  });
-
-  blocoP.on('mouseout', e => {
-    blocoP.setStyle({ fillColor: '#ECEFF1' });
-  });
-
   blocoP.bindPopup(
     '<div class="popup-content">' +
       'Bloco P  <br>' +
-      '<button onclick="(() => { buscarChaveNoJSON(\'S009\', blocoP); })()" class="utfpr-button">2° Andar</button> <br>' +
-      '<button onclick="buscarChaveNoJSON(\'S009\')" class="utfpr-button">1° Andar</button> <br>' +
-      '<button onclick="buscarChaveNoJSON(\'S009\')" class="utfpr-button">Térreo</button>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'P201\', blocoP,\'2° Andar\'); })()" class="utfpr-button">2° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'P101\',blocoP,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'P001\',blocoP,\' Térreo\')" class="utfpr-button">Térreo</button>' +
       '</div>',
     { closeOnClick: true }
   );
 
   // Build bloco D
-  // cima,baixo -23.18560, esquerda,direita -50.65668
-  const blocoDa = L.polygon(
+  const blocoD = L.polygon(
     [
+      [-23.18582, -50.65695],
+      [-23.18565, -50.65679],
+      [-23.18568, -50.65675],
       [-23.1856, -50.65668],
       [-23.18569, -50.65656],
       [-23.18577, -50.65663],
-      [-23.18568, -50.65675],
+      [-23.18574, -50.65668],
+      [-23.18591, -50.65682],
     ],
     {
-      fillColor: '#E0E0E0',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
-  // Build bloco D
+
+  blocoD.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco A<br>' +
+      '<button onclick="buscarChaveNoJSON(\'A143\',blocoD,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'A038\',blocoD,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'Departamentos Acadêmicos\', blocoD,\'Subsolo\'); })()" class="utfpr-button">Subsolo</button> <br>' +
+      '</div>',
+    { closeOnClick: true }
+  );
+
+  // Build bloco C
   const blocoDb = L.polygon(
     [
       [-23.1857, -50.65656],
@@ -150,11 +158,21 @@ const InicializarMapa = pos => {
       [-23.18581, -50.65667],
     ],
     {
-      fillColor: '#F5F5F5 ',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
-  // Build bloco D
+
+  blocoDb.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco A  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'DEAPO\',blocoDb,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'A039C\',blocoDb,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
+
+  // Build bloco B
   const blocoDc = L.polygon(
     [
       [-23.185934, -50.656256],
@@ -163,12 +181,21 @@ const InicializarMapa = pos => {
       [-23.186047, -50.656368],
     ],
     {
-      fillColor: '#F1F8E9',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
 
-  // Build bloco D
+  blocoDc.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco A  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'A127\',blocoDb,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'A023\',blocoDb,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
+
+  // Build bloco A1
   const blocoDd = L.polygon(
     [
       [-23.186259, -50.656095],
@@ -184,12 +211,21 @@ const InicializarMapa = pos => {
       [-23.186274, -50.656089],
     ],
     {
-      fillColor: '#F1F8E9',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
 
-  // Build bloco D
+  blocoDd.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco A  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'\',blocoP,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '<button onclick="buscarChaveNoJSON(\'DISAU\',blocoDd,\'Subsolo\')" class="utfpr-button">Subsolo</button> <br>' +
+      '</div>',
+    { closeOnClick: true }
+  );
+
+  // Build bloco A2
   const blocoDe = L.polygon(
     [
       [-23.186259, -50.655687],
@@ -198,51 +234,45 @@ const InicializarMapa = pos => {
       [-23.186392, -50.655676],
     ],
     {
-      fillColor: '#FAFAFA',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
-  // Build bloco D
+  blocoDe.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco A  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'NUAPE\',blocoDe,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'GADIR\',blocoDe,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'DEOF\', blocoDe,\'Subsolo\'); })()" class="utfpr-button">Subsolo</button> <br>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
-  const blocoI = L.polygon(
+  // Build bloco GHI
+  const blocoG = L.polygon(
     [
       [-23.186121, -50.65654],
-      [-23.186195, -50.656433],
-      [-23.186422, -50.65661],
+      [-23.186363, -50.656213],
+      [-23.186585, -50.65639],
       [-23.186343, -50.656722],
     ],
     {
-      fillColor: '#F3E5F5',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
 
-  const blocoh = L.polygon(
-    [
-      [-23.186195, -50.656433],
-      [-23.186284, -50.656315],
-      [-23.186501, -50.656508],
-      [-23.186422, -50.65661],
-    ],
-    {
-      fillColor: '#F5F5F5',
-      fillOpacity: 1,
-    }
-  ).addTo(map);
+  blocoG.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco GHI  <br>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'I205\', blocoG,\'2° Andar\'); })()" class="utfpr-button">2° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'I106\',blocoG,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'H002\',blocoG,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
-  const blocoG = L.polygon(
-    [
-      [-23.186284, -50.656315],
-      [-23.186363, -50.656213],
-      [-23.186585, -50.65639],
-      [-23.186501, -50.656508],
-    ],
-    {
-      fillColor: '#F2F2F2',
-      fillOpacity: 1,
-    }
-  ).addTo(map);
-
+  // Quadra de esportes
   const blocoN = L.polygon(
     [
       [-23.1865, -50.65729],
@@ -256,6 +286,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  // academia
   const blocoJ = L.polygon(
     [
       [-23.18653, -50.65681],
@@ -269,6 +300,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  // Incubadora
   const blocoL = L.polygon(
     [
       [-23.18684, -50.6566],
@@ -282,6 +314,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  // blocoS
   const blocoS = L.polygon(
     [
       [-23.18683, -50.65633],
@@ -290,11 +323,22 @@ const InicializarMapa = pos => {
       [-23.18726, -50.65629],
     ],
     {
-      fillColor: '#EBEBEB',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
 
+  blocoS.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco S<br>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'s201\', blocoS,\'2° Andar\'); })()" class="utfpr-button">2° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'s101\',blocoS,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'s001\',blocoS,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
+
+  // Anfiteatro
   const Anfiteatro = L.circle([-23.1865, -50.65587], {
     color: '#999999',
     fillColor: '#F4F4F4',
@@ -302,6 +346,7 @@ const InicializarMapa = pos => {
     radius: 12,
   }).addTo(map);
 
+  // blocoR
   const blocoR = L.polygon(
     [
       [-23.18643, -50.65575],
@@ -321,6 +366,7 @@ const InicializarMapa = pos => {
       '</div>'
   );
 
+  // Pardais
   const blocoM = L.polygon(
     [
       [-23.18554, -50.65632],
@@ -336,6 +382,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  // Calem
   const blocoQ = L.polygon(
     [
       [-23.18556, -50.656],
@@ -348,11 +395,21 @@ const InicializarMapa = pos => {
       [-23.18577, -50.65599],
     ],
     {
-      fillColor: '#E6E6E6',
+      fillColor: '#F0F0F0',
       fillOpacity: 1,
     }
   ).addTo(map);
 
+  blocoQ.bindPopup(
+    '<div class="popup-content">' +
+      'Calem  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'l101\',blocoS,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'s001\',blocoS,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
+
+  // Vestiario
   const blocoO = L.polygon(
     [
       [-23.18637, -50.65863],
@@ -366,6 +423,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  // blocoRU
   const blocoRU = L.polygon(
     [
       [-23.18643, -50.65609],
@@ -385,6 +443,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
+  // blocoCampo
   const blocoCampo = L.polygon(
     [
       [-23.18547, -50.6586],
@@ -414,29 +473,7 @@ const InicializarMapa = pos => {
     }
   ).addTo(map);
 
-  // Build bloco D
-  const blocoD = L.polygon(
-    [
-      [-23.18582, -50.65695],
-      [-23.18565, -50.6568],
-      [-23.18574, -50.65668],
-      [-23.18591, -50.65682],
-    ],
-    {
-      fillColor: '#E5E5E5 ',
-      fillOpacity: 1,
-    }
-  ).addTo(map);
-
-  blocoD.on('mouseover', e => {
-    blocoD.setStyle({ fillColor: '#E5E5E9 ' });
-  });
-
-  blocoD.on('mouseout', e => {
-    blocoD.setStyle({ fillColor: '#E5E5E5' });
-  });
-
-  // Build bloco K
+  //bloco K
   const blocoK = L.polygon(
     [
       [-23.18594, -50.65672],
@@ -445,19 +482,20 @@ const InicializarMapa = pos => {
       [-23.18615, -50.6569],
     ],
     {
-      fillColor: '#E5E5E5 ',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
 
-  blocoK.on('mouseover', e => {
-    blocoK.setStyle({ fillColor: '#E5E5E9' });
-  });
+  blocoK.bindPopup(
+    '<div class="popup-content">' +
+      'Bloco K  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'K001\',blocoK,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
-  blocoK.on('mouseout', e => {
-    blocoK.setStyle({ fillColor: '#E5E5E5' });
-  });
-
+  //Caminho
   const polyline = L.polyline(
     [
       [-23.1861, -50.65721],
@@ -469,6 +507,8 @@ const InicializarMapa = pos => {
       dashArray: '0.1, 5',
     }
   ).addTo(map);
+
+  
 
   return map;
 };
@@ -507,18 +547,126 @@ const watchPOS = navigator.geolocation.getCurrentPosition(
 const openNav = () => {
   document.getElementById('mySidenav').style.width = '250px';
   document.getElementsByClassName('search-container')[0].style.display = 'none';
-  document.getElementsByClassName('accordion-item')[0].style.display = 'block';
-  document.getElementsByClassName('accordion-item')[1].style.display = 'block';
-  document.getElementsByClassName('accordion-item')[2].style.display = 'block';
+  var accordionItems = document.getElementsByClassName('accordion-item');
+
+  for (var i = 0; i < accordionItems.length; i++) {
+    accordionItems[i].style.display = 'block';
+  }
 };
 
 const closeNav = () => {
   document.getElementById('mySidenav').style.width = '0';
-  document.getElementsByClassName('accordion-item')[0].style.display = 'none';
-  document.getElementsByClassName('accordion-item')[1].style.display = 'none';
-  document.getElementsByClassName('accordion-item')[2].style.display = 'none';
+  var accordionItems = document.getElementsByClassName('accordion-item');
+
+  for (var i = 0; i < accordionItems.length; i++) {
+    accordionItems[i].style.display = 'none';
+  }
+
   document.getElementsByClassName('search-container')[0].style.display =
     'block';
+};
+
+// Função para buscar a chave no JSON
+const buscarChaveNoJSON = (chave, botao, info = '') => {
+  document.getElementById('search-input').value = '';
+
+  if (document.getElementById('search-response').innerHTML !== '') {
+    document.getElementById('search-response').innerHTML = '';
+  }
+
+  if (document.getElementById('modal').style.display !== 'none') {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+  if (botao) {
+    botao.closePopup();
+  }
+  // Faça uma requisição HTTP para carregar o arquivo JSON
+  fetch('./bd.json')
+    .then(response => response.json())
+    .then(data => {
+      // Verifique se a chave existe no JSON
+      if (data[chave]) {
+        exibirResultado(data[chave], info);
+      } else if (data[chave.toUpperCase()]) {
+        exibirResultado(data[chave.toUpperCase()], info);
+      } else {
+        exibirResultado('Bloco não encontrado.');
+      }
+    })
+    .catch(error => {
+      console.error('Erro ao carregar o arquivo JSON:', error);
+    });
+};
+
+var marker2;
+
+// Função para exibir o resultado da busca
+const exibirResultado = (resultado, info = '') => {
+  console.log(resultado);
+  var nome;
+  if (marker2) {
+    map.removeLayer(marker2);
+  }
+
+  if (info !== '') {
+    nome = info;
+  } else {
+    nome = resultado.nome;
+  }
+
+  if (resultado === 'Bloco não encontrado.') {
+    document.getElementById('search-response').style.color = 'red';
+    document.getElementById('search-response').innerHTML = resultado;
+  } else {
+    // se ja existir marker n precisa criar outro
+    openModal(nome, resultado.descricao, resultado.URLBLOCO, resultado.URLPISO);
+    // TODO: adicionar o marker no mapa
+    // marker2 = L.marker([-23.18591, -50.65721]);
+    // marker2.bindPopup(resultado.nome);
+    // marker2.addTo(map);
+  }
+};
+
+// Capturar o evento de clique no botão de pesquisa
+document
+  .getElementById('search-button')
+  .addEventListener('click', function (event) {
+    event.preventDefault(); // Impede o comportamento padrão do botão
+
+    // Capturar o valor digitado na barra de pesquisa
+    const chave = document.getElementById('search-input').value;
+    // transformar um lowercase para facilitar a busca
+
+    // Realizar a busca no JSON
+    buscarChaveNoJSON(chave.toLowerCase());
+  });
+
+// Abrir o modal
+function openModal(Nome, descricao, piso, bloco) {
+  const Image = './a.png';
+  document.getElementById('modal').style.display = 'block';
+  document.getElementById('modal-image').src = piso;
+  document.getElementById('modal-title').innerText = descricao;
+  document.getElementById('modal-description').innerText = Nome;
+  document.getElementById('modal').style.display = 'block';
+  document.getElementById('modal-image-floor').src = bloco;
+}
+
+// Fechar o modal
+document.getElementsByClassName('close')[0].onclick = function () {
+  document.getElementById('modal').style.display = 'none';
+};
+
+// Fechar o modal
+document.getElementsByClassName('openbtn')[0].onclick = function () {
+  if (document.getElementById('search-response').innerHTML !== '') {
+    document.getElementById('search-response').innerHTML = '';
+  }
+  if (document.getElementById('modal').style.display !== 'none') {
+    document.getElementById('modal').style.display = 'none';
+  }
+  openNav();
 };
 
 const mostrarInfo = () => {
@@ -552,95 +700,4 @@ const mostrarInfo = () => {
   //     informacoesDiv.innerHTML = '<h1>Bloco F</h1><p>Este é o bloco F</p>';
   //   }
   // }
-};
-
-// Função para buscar a chave no JSON
-const buscarChaveNoJSON = (chave, botao) => {
-  document.getElementById('search-input').value = '';
-
-  if (document.getElementById('search-response').innerHTML !== '') {
-    document.getElementById('search-response').innerHTML = '';
-  }
-
-  if (document.getElementById('modal').style.display !== 'none') {
-    document.getElementById('modal').style.display = 'none';
-  }
-
-  if (botao) {
-    botao.closePopup();
-  }
-  // Faça uma requisição HTTP para carregar o arquivo JSON
-  fetch('./bd.json')
-    .then(response => response.json())
-    .then(data => {
-      // Verifique se a chave existe no JSON
-      if (data[chave]) {
-        exibirResultado(data[chave]);
-      } else {
-        exibirResultado('Bloco não encontrado.');
-      }
-    })
-    .catch(error => {
-      console.error('Erro ao carregar o arquivo JSON:', error);
-    });
-};
-
-var marker2;
-
-// Função para exibir o resultado da busca
-const exibirResultado = resultado => {
-  if (marker2) {
-    map.removeLayer(marker2);
-  }
-
-  if (resultado === 'Bloco não encontrado.') {
-    document.getElementById('search-response').style.color = 'red';
-    document.getElementById('search-response').innerHTML = resultado;
-  } else {
-    // se ja existir marker n precisa criar outro
-    openModal(resultado.nome, resultado.URLPISO, resultado.URLBLOCO);
-    marker2 = L.marker([-23.18591, -50.65721]);
-    marker2.bindPopup(resultado.nome);
-    marker2.addTo(map);
-  }
-};
-
-// Capturar o evento de clique no botão de pesquisa
-document
-  .getElementById('search-button')
-  .addEventListener('click', function (event) {
-    event.preventDefault(); // Impede o comportamento padrão do botão
-
-    // Capturar o valor digitado na barra de pesquisa
-    const chave = document.getElementById('search-input').value;
-
-    // Realizar a busca no JSON
-    buscarChaveNoJSON(chave);
-  });
-
-// Abrir o modal
-function openModal(Nome, piso, bloco) {
-  const Image = './a.png';
-  document.getElementById('modal').style.display = 'block';
-  document.getElementById('modal-image').src = piso;
-  document.getElementById('modal-title').innerText = 'Bloco S';
-  document.getElementById('modal-description').innerText = Nome;
-  document.getElementById('modal').style.display = 'block';
-  document.getElementById('modal-image-floor').src = bloco;
-}
-
-// Fechar o modal
-document.getElementsByClassName('close')[0].onclick = function () {
-  document.getElementById('modal').style.display = 'none';
-};
-
-// Fechar o modal
-document.getElementsByClassName('openbtn')[0].onclick = function () {
-  if (document.getElementById('search-response').innerHTML !== '') {
-    document.getElementById('search-response').innerHTML = '';
-  }
-  if (document.getElementById('modal').style.display !== 'none') {
-    document.getElementById('modal').style.display = 'none';
-  }
-  openNav();
 };

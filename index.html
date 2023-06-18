@@ -49,8 +49,6 @@
     <div id="mapid"></div>
     <!-- Criar um botao style absolute in right -->
 
-    
-
     <!-- Modal -->
     <div id="modal" class="modal">
       <div id="modal-content">
@@ -65,7 +63,9 @@
 
     <div class="search-container">
       <input type="text" id="search-input" placeholder="Digite sua pesquisa" />
-      <button id="search-button">Pesquisar</button>
+      <button id="search-button">
+        <i class="fa fa-search" id="search-icon"></i>
+      </button>
       <!-- Resposta da pesquisa -->
       <div id="search-response"></div>
     </div>
@@ -78,6 +78,7 @@
       >
 
       <div class="accordion accordion-flush" id="accordionFlushExample">
+        <!-- GHI -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button
@@ -87,7 +88,7 @@
               data-bs-target="#flush-collapseOne"
               aria-expanded="false"
               aria-controls="flush-collapseOne">
-              Bloco A
+              Bloco GHI
             </button>
           </h2>
           <div
@@ -99,15 +100,24 @@
               <ul class="list-group">
                 <li
                   class="list-group-item"
-                  onclick="buscarChaveNoJSON('S009'), closeNav()">
-                  1 andar
+                  onclick="buscarChaveNoJSON('I106','','2° Andar'), closeNav()">
+                  2° andar
                 </li>
-                <li class="list-group-item">2 andar</li>
-                <li class="list-group-item">Térreo</li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('I205','','1° Andar'), closeNav()">
+                  1° andar
+                </li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('H002','','Térreo'), closeNav()">
+                  Térreo
+                </li>
               </ul>
             </div>
           </div>
         </div>
+        <!-- S -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button
@@ -117,7 +127,7 @@
               data-bs-target="#flush-collapseTwo"
               aria-expanded="false"
               aria-controls="flush-collapseTwo">
-              Bloco B
+              Bloco S
             </button>
           </h2>
           <div
@@ -127,13 +137,26 @@
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="list-group">
-                <li class="list-group-item">1 andar</li>
-                <li class="list-group-item">2 andar</li>
-                <li class="list-group-item">Térreo</li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('s209','','2° Andar'), closeNav()">
+                  2° andar
+                </li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('s109','','1° Andar'), closeNav()">
+                  1° andar
+                </li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('s008','','Térreo'), closeNav()">
+                  Térreo
+                </li>
               </ul>
             </div>
           </div>
         </div>
+        <!-- P -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingThree">
             <button
@@ -143,7 +166,7 @@
               data-bs-target="#flush-collapseThree"
               aria-expanded="false"
               aria-controls="flush-collapseThree">
-              Bloco C
+              Bloco P
             </button>
           </h2>
           <div
@@ -153,9 +176,50 @@
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="list-group">
-                <li class="list-group-item">1 andar</li>
-                <li class="list-group-item">2 andar</li>
-                <li class="list-group-item">Térreo</li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('P211','','2° Andar'), closeNav()">
+                  2° andar
+                </li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('P111','','1° Andar'), closeNav()">
+                  1° andar
+                </li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('P011','','Térreo'), closeNav()">
+                  Térreo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- K -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour">
+              Bloco K
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group">
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('K001','','Térreo'), closeNav()">
+                  Térreo
+                </li>
               </ul>
             </div>
           </div>

@@ -1,9 +1,30 @@
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Resto do seu código CSS */
 body {
   font-family: 'Lato', sans-serif;
 }
+
 .leaflet-top {
   top: 600px !important;
 }
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -29,6 +50,7 @@ body {
   display: block;
   transition: 0.3s;
 }
+
 .list-group.panel > .list-group-item {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -50,8 +72,8 @@ body {
     font-size: 18px;
   }
 }
-/* Add .accordion-flush to remove the default background-color, some borders, and some rounded corners to render accordions edge-to-edge with their parent container. */
 
+/* Add .accordion-flush to remove the default background-color, some borders, and some rounded corners to render accordions edge-to-edge with their parent container. */
 .accordion-flush .accordion-item {
   background-color: #fff;
 }
@@ -60,11 +82,13 @@ body {
   background-color: #8d2626;
   color: #212218;
 }
+
 #mapid {
   height: 98.9vh;
   width: 98.9vw;
   z-index: 0;
 }
+
 /* Style with blue h1 */
 h1 {
   color: #2196f3;
@@ -98,6 +122,7 @@ h2 {
   bottom: 0;
   z-index: 9999;
 }
+
 .my-label {
   background-color: transparent !important;
   color: red !important; /* Altere a cor do texto conforme necessário */
@@ -111,7 +136,7 @@ h2 {
 
 /* Estilo para o botão */
 .utfpr-button {
-  width: 201.09px;
+  width: 150px;
   height: 40px;
   display: inline-block;
   padding: 6px 12px;
@@ -139,6 +164,7 @@ h2 {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
+  width: 150px;
   color: #212218; /* Cor do texto */
 }
 
@@ -215,21 +241,28 @@ body {
   display: none;
   position: fixed;
   z-index: 1;
-  left: 50px;
-  top: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 400px;
-  height: 99vh;
-  overflow: hidden;
+  max-height: 80vh;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  overflow: auto;
 }
 
 #modal-content {
-  background-color: #fefefe;
+  margin-bottom: 20px;
+}
 
-  padding: 20px;
-  border: 1px solid #888;
-  width: 100%;
-  height: 100%;
-  margin: 30px;
+#modal-image,
+#modal-image-floor {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .close {
@@ -237,23 +270,13 @@ body {
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
-  margin: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .close:hover,
 .close:focus {
   color: black;
   text-decoration: none;
-  cursor: pointer;
-}
-
-#modal-image {
-  max-width: 300px;
-  height: auto;
-}
-
-#modal-image-floor {
-  max-width: 300px;
-  height: auto;
-  margin-top: 20px;
 }
