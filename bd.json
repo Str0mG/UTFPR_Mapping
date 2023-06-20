@@ -2,6 +2,7 @@
   "s009": {
     "nome": "Laboratório de Integração e Sintese",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -9,6 +10,7 @@
   "s008": {
     "nome": "Almoxarifado",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -16,6 +18,7 @@
   "s007": {
     "nome": "Almoxarifado",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -23,6 +26,7 @@
   "s006": {
     "nome": "Laboratório de Redes Industriais",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -30,6 +34,7 @@
   "s005": {
     "nome": "Laboratório de Sistema de Energia",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -37,6 +42,7 @@
   "s004": {
     "nome": "Laboratório de Automação",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -44,6 +50,7 @@
   "s003": {
     "nome": "Laboratório de Instalações Elétricas",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -51,6 +58,7 @@
   "s002": {
     "nome": "Laboratório de Materiais e Luminotécnica",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -58,6 +66,7 @@
   "s001": {
     "nome": "Laboratório de Eletrônica Analógica",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_terreo.png"
@@ -65,6 +74,7 @@
   "s109": {
     "nome": "Laboratório de Sistemas Embarcados",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -72,6 +82,7 @@
   "s108": {
     "nome": "Almoxarifado",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -79,6 +90,7 @@
   "s107": {
     "nome": "Laboratório de Prototipagem",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -86,6 +98,7 @@
   "s106": {
     "nome": "Laboratório de Sensores Atuadores",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -93,6 +106,7 @@
   "s105": {
     "nome": "Laboratório de Eletrônica de Potência",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -100,6 +114,7 @@
   "s104": {
     "nome": "Laboratório de Circuitos 2",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -107,6 +122,7 @@
   "s103": {
     "nome": "Laboratório de Circuitos 1",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -114,6 +130,7 @@
   "s102": {
     "nome": "Laboratório de Eletrônica Digital",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -121,6 +138,7 @@
   "s101": {
     "nome": "Laboratório de Eletrônica Analógica",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_1.png"
@@ -128,6 +146,7 @@
   "s209": {
     "nome": "Laboratório de Controle Avançado",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -135,6 +154,7 @@
   "s208": {
     "nome": "Sala de Manutenção",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -142,6 +162,7 @@
   "s207": {
     "nome": "Sala de Estudos 24h",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -149,6 +170,7 @@
   "s206": {
     "nome": "Laboratório de Telecomunicações",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -156,6 +178,7 @@
   "s205": {
     "nome": "Laboratório de Transmissão de Dados",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -163,6 +186,7 @@
   "s204": {
     "nome": "Laboratório de Processamento Digitais de Sinais",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -170,6 +194,7 @@
   "s203": {
     "nome": "Laboratório de Instrumentação Biomédica",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -177,6 +202,7 @@
   "s202": {
     "nome": "Sala de Aula",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -184,6 +210,7 @@
   "s201": {
     "nome": "Laboratório de Controle Clássico",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_s.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_s_2.png"
@@ -191,6 +218,7 @@
   "K001": {
     "nome": "Sala dos professores de Computação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -198,6 +226,7 @@
   "K002": {
     "nome": "Sala dos professores de Computação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -205,6 +234,7 @@
   "K003": {
     "nome": "Sala dos professores de Computação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -212,6 +242,7 @@
   "K004": {
     "nome": "Sala dos professores de Computação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -219,6 +250,7 @@
   "secretaria de pós-graduação": {
     "nome": "Secretaria de Pós-Graduação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -226,6 +258,7 @@
   "K005": {
     "nome": "Sala de Atendimento (DACOM)",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -233,6 +266,7 @@
   "K006": {
     "nome": "Sala dos professores de Computação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -240,6 +274,7 @@
   "K007": {
     "nome": "Sala dos professores de Computação",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -247,6 +282,7 @@
   "K008": {
     "nome": "Laboratório de Informática",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -254,6 +290,7 @@
   "K009": {
     "nome": "Laboratório de Informática",
     "descricao": "BLOCO K",
+    "lat": ["-23.18599", "-50.65666"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
@@ -261,6 +298,7 @@
   "P211": {
     "nome": "Lab. de Arquitetura de Computadores",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -268,6 +306,7 @@
   "P206": {
     "nome": "Lab. de Bioinformática",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -275,6 +314,7 @@
   "P205": {
     "nome": "Lab. de Informática",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -282,6 +322,7 @@
   "P204": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -289,6 +330,7 @@
   "P203": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -296,6 +338,7 @@
   "P202": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -303,6 +346,7 @@
   "P201": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_2.png"
@@ -310,6 +354,7 @@
   "P111": {
     "nome": "Lab. de Eletrônica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -317,6 +362,7 @@
   "P106": {
     "nome": "Lab. Jogos Digitais",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -324,6 +370,7 @@
   "P105": {
     "nome": "Lab. de Informática",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -331,6 +378,7 @@
   "P104": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -338,6 +386,7 @@
   "P103": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -345,6 +394,7 @@
   "P102": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -352,6 +402,7 @@
   "P101": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_1.png"
@@ -359,6 +410,7 @@
   "P011": {
     "nome": "Lab. de Automação",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -366,6 +418,7 @@
   "P006": {
     "nome": "Lab. Sistemas de Humano-Computador",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -373,6 +426,7 @@
   "P005": {
     "nome": "Lab. de Informática",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -380,6 +434,7 @@
   "P004": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -387,6 +442,7 @@
   "P003": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -394,6 +450,7 @@
   "P002": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -401,6 +458,8 @@
   "P001": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO P",
+    "lat": ["-23.18606", "-50.65721"],
+    "lat": ["-23.18631", "-50.65582"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_p.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_p_terreo.png"
@@ -408,6 +467,7 @@
   "H002": {
     "nome": "Lavatório",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -415,6 +475,7 @@
   "H003": {
     "nome": "Laboratório de Manutenção",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -422,6 +483,7 @@
   "H005": {
     "nome": "Laboratório de Ajustagem",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -429,6 +491,7 @@
   "H007": {
     "nome": "Laboratório de CNC",
     "descricao": "BLOCO S",
+    "lat": ["-23.18683", "-50.65625"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -436,6 +499,7 @@
   "DCE": {
     "nome": "Diretório Acadêmico",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -443,6 +507,7 @@
   "FURIA": {
     "nome": "Diretório Acadêmico",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -450,6 +515,7 @@
   "DESEG": {
     "nome": "Cabine de Transformação",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -457,6 +523,7 @@
   "I005": {
     "nome": "Lab. de Termodinâmica e refrigeração",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -464,6 +531,7 @@
   "I004": {
     "nome": "Lab. de Transferência de calor e Mecânica dos Fluídos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -471,6 +539,7 @@
   "I003": {
     "nome": "Lab. de Sistemas dinâmicos e Projetos Mecânicos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -478,6 +547,7 @@
   "I002": {
     "nome": "Lab. de Materiais",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -485,6 +555,7 @@
   "I001": {
     "nome": "Lab. de Ensaios",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -492,6 +563,7 @@
   "I106": {
     "nome": "Coord. de TCC",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -499,6 +571,7 @@
   "I105": {
     "nome": "Lab. de Acionamentos Eletrônicos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -506,6 +579,7 @@
   "I104": {
     "nome": "Lab. de Segurança e Iluminação",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -513,6 +587,7 @@
   "I103": {
     "nome": "Almoxarifado de materiais Elétricos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -520,6 +595,7 @@
   "I102": {
     "nome": "Lab. de Máquinas Elétricas",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -527,6 +603,7 @@
   "I101": {
     "nome": "Lab. de Instalações Elétricas",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -534,6 +611,7 @@
   "I205": {
     "nome": "Lab. de Acionamentos Eletrônicos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_2.png"
@@ -541,6 +619,7 @@
   "I204": {
     "nome": "Lab. de Informática Mecânica",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_2.png"
@@ -548,6 +627,7 @@
   "I203": {
     "nome": "Lab. de Informática Mecânica",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_2.png"
@@ -555,6 +635,7 @@
   "I202": {
     "nome": "Lab. de Informática",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_2.png"
@@ -562,6 +643,7 @@
   "I201": {
     "nome": "Lab. de Informática",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_2.png"
@@ -570,6 +652,7 @@
   "G002": {
     "nome": "Lab. de Hidráulica e Pneumática",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -577,6 +660,7 @@
   "G005": {
     "nome": "Lab. de Metrologia",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -584,6 +668,7 @@
   "G006": {
     "nome": "Manutenção Elétrica",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_terreo.png"
@@ -591,6 +676,7 @@
   "G106": {
     "nome": "Coord. de Estágio",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -598,6 +684,7 @@
   "G105": {
     "nome": "Lab. de Automação e Controle",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -605,6 +692,7 @@
   "G104": {
     "nome": "Lab. de Eletrônica",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -612,6 +700,7 @@
   "G103": {
     "nome": "Lab. de Instrumentação",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -619,6 +708,7 @@
   "G102": {
     "nome": "Lab. de Circuitos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -626,6 +716,7 @@
   "G101": {
     "nome": "Lab. de Circuitos",
     "descricao": "BLOCO GHI",
+    "lat": ["-23.18624", "-50.65638"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_ghi.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_ghi_1.png"
@@ -635,392 +726,448 @@
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DIGRAD": {
     "nome": "Diretoria de Graduação Profissional",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DERAC": {
     "nome": "Departamento de Registros Acadêmicos",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "NUENS": {
     "nome": "Núcleo de Ensino",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DIRPPG": {
     "nome": "Diretoria de Pesquisa e Pós-Graduação",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DEOF": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DESEG": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "FUNTEF": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "ASSURTEF": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DIRPLAD": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "COGERH": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub1.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DEPRO": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png",
+    "lat": ["-23.18631", "-50.65582"]
   },
   "DISAU": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png",
+    "lat": ["-23.18631", "-50.65582"]
   },
   "DIALM": {
     "nome": "Divisão de Almoxarifado",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png",
+    "lat": ["-23.18631", "-50.65582"]
   },
   "A148": {
     "nome": "Laboratóriode Ensino de Matemática",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_1.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "A022": {
     "nome": "Sala de Desenho 24 horas",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "A023": {
     "nome": "Laboratório de Física 4",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "A024": {
     "nome": "Laboratório de Física 3",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "A047": {
     "nome": "Laboratório de Física 1",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "GEREP": {
     "nome": "Sala de Apoio Didático de física",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_terreo.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "A039C": {
     "nome": "LECAD",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "GERED": {
     "nome": "Sala dos Professores de Química",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A040": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A039": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A031": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A030": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A028": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_terreo.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "DEAPO": {
     "nome": "Assistência ai Ensino e Audiovisual",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A146": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A145": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A144": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A136": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A135": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "A134": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_c_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_c_1.png",
+    "lat": ["-23.18587", "-50.65646"]
   },
   "departamentos acadêmicos": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_sub.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_sub.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "DIRGRAD": {
     "nome": "Coordenação da Matemática",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_sub.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_sub.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "H-101": {
     "nome": "Coeme",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_sub.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_sub.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "DIRGRAD": {
     "nome": "Coordenação de Computação",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_sub.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_sub.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "DIRGRAD": {
     "nome": "Secretaria das Coordenações",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_sub.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_sub.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A143": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_1.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A142": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_1.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A141": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_1.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A140": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_1.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A038": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A037": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A036": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "A035": {
     "nome": "Sala de Aula Teórica",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_d_terreo.png",
+    "lat": ["-23.18575", "-50.65679"]
   },
   "divisão de patrimônio": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_sub2.png",
+    "lat": ["-23.18631", "-50.65582"]
   },
   "GADIR": {
     "nome": "Sala de Reuniões",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "GADIR2": {
     "nome": "Gabinete do Diretor",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "COGETI": {
     "nome": "Coordenadoria de Gestão de Tecnologia da Informação",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "DIREC": {
     "nome": "Diretoria de Relações Empresarias e Comunitárias",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png"
+    "URLPISO": "./assets/imgPISO/bloco_a_terreo.png",
+    "lat": ["-23.18633", "-50.65553"]
   },
   "A127": {
     "nome": "Sala de Treinamento 1",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_1.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "A128": {
     "nome": "Laboratório de Informática da Matemática",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_1.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "DIRDI": {
     "nome": "Fotocópias",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_1.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "DIMASU": {
     "nome": "Divisão de manutenção e Suporte ao Usuário",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
-    "URLPISO": "./assets/imgPISO/bloco_b_1.png"
+    "URLPISO": "./assets/imgPISO/bloco_b_1.png",
+    "lat": ["-23.18609", "-50.65618"]
   },
   "ambulatório": {
     "nome": "Ambulatório Médico e Odontológico",
@@ -1032,6 +1179,8 @@
   "professores de linguas": {
     "nome": "Sala 05",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
+
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
@@ -1039,6 +1188,7 @@
   "NAI 1": {
     "nome": "Lab. de Braille",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
@@ -1046,6 +1196,7 @@
   "HOTEC 2": {
     "nome": "Sala 02",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
@@ -1053,6 +1204,7 @@
   "NAI 2": {
     "nome": "Lab. de Libras",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
@@ -1060,6 +1212,7 @@
   "HOTEC 4": {
     "nome": "Sala 04",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
@@ -1068,6 +1221,7 @@
   "CALEM 1": {
     "nome": "Sala de Aula Teórica I",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_1.png"
@@ -1075,6 +1229,7 @@
   "CALEM II": {
     "nome": "CALEM II",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_1.png"
@@ -1082,6 +1237,7 @@
   "GEREP2": {
     "nome": "Núcleo de Educação a Distância",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_1.png"
@@ -1089,6 +1245,7 @@
   "CALEM 2": {
     "nome": "Sala de Professores - CALEM",
     "descricao": "BLOCO L",
+    "lat": ["-23.18566", "-50.65598"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/calem.jpg",
     "URLPISO": "./assets/imgPISO/bloco_l_1.png"
@@ -1097,6 +1254,7 @@
   "ninho de pardais 1": {
     "nome": "Sala de Aula",
     "descricao": "BLOCO M",
+    "lat": ["-23.18567", "-50.65615"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
     "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
@@ -1104,6 +1262,7 @@
   "ninho de pardais 2": {
     "nome": "Lab. de Protótipos",
     "descricao": "BLOCO M",
+    "lat": ["-23.18567", "-50.65615"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
     "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
@@ -1111,6 +1270,7 @@
   "ninho de pardais 3": {
     "nome": "Lab. de Oficinas de Robótica",
     "descricao": "BLOCO M",
+    "lat": ["-23.18567", "-50.65615"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
     "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
@@ -1118,6 +1278,7 @@
   "ninho de pardais 4": {
     "nome": "Lab. de Desenvolvimento",
     "descricao": "BLOCO M",
+    "lat": ["-23.18567", "-50.65615"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
     "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
@@ -1125,6 +1286,7 @@
   "ninho de pardais 5": {
     "nome": "Coordenação",
     "descricao": "BLOCO M",
+    "lat": ["-23.18567", "-50.65615"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
     "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
@@ -1132,6 +1294,7 @@
   "ninho de pardais 6": {
     "nome": "Almoxarifado",
     "descricao": "BLOCO M",
+    "lat": ["-23.18567", "-50.65615"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
     "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
@@ -1139,6 +1302,7 @@
   "campo": {
     "nome": "",
     "descricao": "Campo de Futebol",
+    "lat": ["-23.18593", "-50.65813"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/campo.jpg",
     "URLPISO": ""
@@ -1146,6 +1310,7 @@
   "RU": {
     "nome": "",
     "descricao": "Restaurante Universitário",
+    "lat": ["-23.18646", "-50.65605"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/restaurante.jpg",
     "URLPISO": ""
@@ -1153,6 +1318,7 @@
   "anfiteatro": {
     "nome": "",
     "descricao": "Anfiteatro",
+    "lat": ["-23.18641", "-50.65587"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/anfiteatro.jpg",
     "URLPISO": ""
@@ -1160,6 +1326,7 @@
   "quadra": {
     "nome": "",
     "descricao": "Quadra de Futebol",
+    "lat": ["-23.18651", "-50.65688"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/quadra.jpg",
     "URLPISO": ""
@@ -1167,6 +1334,7 @@
   "academia": {
     "nome": "",
     "descricao": "Academia",
+    "lat": ["-23.18664", "-50.65679"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/academia.jpg",
     "URLPISO": ""
@@ -1174,6 +1342,7 @@
   "incubadora": {
     "nome": "",
     "descricao": "Incubadora",
+    "lat": ["-23.18707", "-50.65646"],
     "info": "",
     "URLBLOCO": "./assets/imgBloco/incubadora.jpg",
     "URLPISO": ""

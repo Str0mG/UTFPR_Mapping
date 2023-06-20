@@ -561,6 +561,17 @@ const InicializarMapa = pos => {
       dashArray: '0.1, 5',
     }
   ).addTo(map);
+  const polyline2 = L.polyline(
+    [
+      [-23.1861, -50.65721],
+      [-23.18629, -50.65719],
+      [-23.18631, -50.6576],
+    ],
+    {
+      color: 'black',
+      dashArray: '0.1, 5',
+    }
+  ).addTo(map);
 
   return map;
 };
@@ -676,11 +687,11 @@ const exibirResultado = (resultado, info = '') => {
     // se ja existir marker n precisa criar outro
 
     openModal(nome, resultado.descricao, resultado.URLBLOCO, resultado.URLPISO);
-
+    console.log(resultado.lat);
     // TODO: adicionar o marker no mapa
-    // marker2 = L.marker([-23.18591, -50.65721]);
-    // marker2.bindPopup(resultado.nome);
-    // marker2.addTo(map);
+    marker2 = L.marker(resultado.lat);
+    marker2.bindPopup(resultado.nome);
+    marker2.addTo(map);
   }
 };
 
@@ -716,6 +727,7 @@ function openModal(Nome, descricao, piso, bloco) {
 // Fechar o modal
 document.getElementsByClassName('close')[0].onclick = function () {
   document.getElementById('modal').style.display = 'none';
+  map.removeLayer(marker2);
 };
 
 // Fechar o modal
