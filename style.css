@@ -238,11 +238,12 @@ body {
 }
 
 #modal {
+  min-height: 400px;
   display: none;
   position: fixed;
   z-index: 1;
-  left: 50%;
-  top: 50%;
+  left: 19%;
+  top: 55%;
   transform: translate(-50%, -50%);
   width: 400px;
   max-height: 80vh;

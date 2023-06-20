@@ -3,6 +3,9 @@ var L;
 var blocoA,
   blocoB,
   blocoDb,
+  blocoCampo,
+  Anfiteatro,
+  blocoRU,
   blocoDd,
   blocoDe,
   blocoC,
@@ -51,7 +54,7 @@ const InicializarMapa = pos => {
   //     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   // }).addTo(map);
 
-  // https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png tmb é bom, black
+  // https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png tmb é bom, yellow
   // https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png tmb é bom, white
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     maxZoom: 20,
@@ -144,7 +147,7 @@ const InicializarMapa = pos => {
       'Bloco A<br>' +
       '<button onclick="buscarChaveNoJSON(\'A143\',blocoD,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
       '<button onclick="buscarChaveNoJSON(\'A038\',blocoD,\' Térreo\')" class="utfpr-button">Térreo</button>' +
-      '<button onclick="(() => { buscarChaveNoJSON(\'Departamentos Acadêmicos\', blocoD,\'Subsolo\'); })()" class="utfpr-button">Subsolo</button> <br>' +
+      '<button onclick="(() => { buscarChaveNoJSON(\'departamentos acadêmicos\', blocoD,\'Subsolo\'); })()" class="utfpr-button">Subsolo</button> <br>' +
       '</div>',
     { closeOnClick: true }
   );
@@ -281,10 +284,18 @@ const InicializarMapa = pos => {
       [-23.18678, -50.65726],
     ],
     {
-      fillColor: '#D3D3D3',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
+
+  blocoN.bindPopup(
+    '<div class="popup-content">' +
+      'Quadra de esportes<br>' +
+      '<button onclick="buscarChaveNoJSON(\'quadra\',blocoN,\'\')" class="utfpr-button">Ver foto</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   // academia
   const blocoJ = L.polygon(
@@ -295,10 +306,18 @@ const InicializarMapa = pos => {
       [-23.18674, -50.65678],
     ],
     {
-      fillColor: '#F8F8F8',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
+
+  blocoJ.bindPopup(
+    '<div class="popup-content">' +
+      'Academia<br>' +
+      '<button onclick="buscarChaveNoJSON(\'academia\',blocoJ,\'\')" class="utfpr-button">Ver foto</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   // Incubadora
   const blocoL = L.polygon(
@@ -309,10 +328,17 @@ const InicializarMapa = pos => {
       [-23.18729, -50.65654],
     ],
     {
-      fillColor: '#F0F0F0',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
+  blocoL.bindPopup(
+    '<div class="popup-content">' +
+      'Incubadora<br>' +
+      '<button onclick="buscarChaveNoJSON(\'incubadora\',blocoL,\'\')" class="utfpr-button">Ver foto</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   // blocoS
   const blocoS = L.polygon(
@@ -340,11 +366,18 @@ const InicializarMapa = pos => {
 
   // Anfiteatro
   const Anfiteatro = L.circle([-23.1865, -50.65587], {
-    color: '#999999',
-    fillColor: '#F4F4F4',
+    fillColor: 'yellow',
     fillOpacity: 1,
     radius: 12,
   }).addTo(map);
+
+  Anfiteatro.bindPopup(
+    '<div class="popup-content">' +
+      'Anfiteatro<br>' +
+      '<button onclick="buscarChaveNoJSON(\'anfiteatro\',Anfiteatro,\'\')" class="utfpr-button">Ver foto</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   // blocoR
   const blocoR = L.polygon(
@@ -355,7 +388,7 @@ const InicializarMapa = pos => {
       [-23.18667, -50.65571],
     ],
     {
-      fillColor: '#EFEFEF',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -377,10 +410,18 @@ const InicializarMapa = pos => {
       [-23.18563, -50.6564],
     ],
     {
-      fillColor: '#F7F7F7',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
+
+  blocoM.bindPopup(
+    '<div class="popup-content">' +
+      'Ninho dos Pardais<br>' +
+      '<button onclick="buscarChaveNoJSON(\'ninho de pardais 1\',blocoM,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   // Calem
   const blocoQ = L.polygon(
@@ -395,7 +436,7 @@ const InicializarMapa = pos => {
       [-23.18577, -50.65599],
     ],
     {
-      fillColor: '#F0F0F0',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -403,8 +444,8 @@ const InicializarMapa = pos => {
   blocoQ.bindPopup(
     '<div class="popup-content">' +
       'Calem  <br>' +
-      '<button onclick="buscarChaveNoJSON(\'l101\',blocoS,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
-      '<button onclick="buscarChaveNoJSON(\'s001\',blocoS,\' Térreo\')" class="utfpr-button">Térreo</button>' +
+      '<button onclick="buscarChaveNoJSON(\'CALEM 1\',blocoQ,\'1° Andar\')" class="utfpr-button">1° Andar</button> <br>' +
+      '<button onclick="buscarChaveNoJSON(\'professores de linguas\',blocoQ,\' Térreo\')" class="utfpr-button">Térreo</button>' +
       '</div>',
     { closeOnClick: true }
   );
@@ -418,7 +459,7 @@ const InicializarMapa = pos => {
       [-23.18659, -50.6586],
     ],
     {
-      fillColor: '#CCCCCC',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
@@ -438,10 +479,17 @@ const InicializarMapa = pos => {
       [-23.1865, -50.65609],
     ],
     {
-      fillColor: '#F6F6F6',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
+  blocoRU.bindPopup(
+    '<div class="popup-content">' +
+      'Restaurante Universitário<br>' +
+      '<button onclick="buscarChaveNoJSON(\'RU\',blocoRU,\'\')" class="utfpr-button">Ver foto</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   // blocoCampo
   const blocoCampo = L.polygon(
@@ -467,11 +515,17 @@ const InicializarMapa = pos => {
       [-23.18643, -50.65848],
     ],
     {
-      color: '#999999',
-      fillColor: '#E5E5E5 ',
+      fillColor: 'yellow',
       fillOpacity: 1,
     }
   ).addTo(map);
+  blocoCampo.bindPopup(
+    '<div class="popup-content">' +
+      'Campo de Futebol  <br>' +
+      '<button onclick="buscarChaveNoJSON(\'campo\',blocoCampo,\'\')" class="utfpr-button">Ver foto</button>' +
+      '</div>',
+    { closeOnClick: true }
+  );
 
   //bloco K
   const blocoK = L.polygon(
@@ -507,8 +561,6 @@ const InicializarMapa = pos => {
       dashArray: '0.1, 5',
     }
   ).addTo(map);
-
-  
 
   return map;
 };
@@ -581,6 +633,8 @@ const buscarChaveNoJSON = (chave, botao, info = '') => {
   if (botao) {
     botao.closePopup();
   }
+
+  console.log(chave);
   // Faça uma requisição HTTP para carregar o arquivo JSON
   fetch('./bd.json')
     .then(response => response.json())
@@ -620,7 +674,9 @@ const exibirResultado = (resultado, info = '') => {
     document.getElementById('search-response').innerHTML = resultado;
   } else {
     // se ja existir marker n precisa criar outro
+
     openModal(nome, resultado.descricao, resultado.URLBLOCO, resultado.URLPISO);
+
     // TODO: adicionar o marker no mapa
     // marker2 = L.marker([-23.18591, -50.65721]);
     // marker2.bindPopup(resultado.nome);
@@ -644,13 +700,17 @@ document
 
 // Abrir o modal
 function openModal(Nome, descricao, piso, bloco) {
-  const Image = './a.png';
+  if (piso) {
+    document.getElementById('modal-image-floor').src = bloco;
+  } else {
+    const modalImageFloor = document.getElementById('modal-image-floor');
+    modalImageFloor.parentNode.removeChild(modalImageFloor);
+  }
+
+  document.getElementById('modal-title').innerText = descricao;
   document.getElementById('modal').style.display = 'block';
   document.getElementById('modal-image').src = piso;
-  document.getElementById('modal-title').innerText = descricao;
   document.getElementById('modal-description').innerText = Nome;
-  document.getElementById('modal').style.display = 'block';
-  document.getElementById('modal-image-floor').src = bloco;
 }
 
 // Fechar o modal

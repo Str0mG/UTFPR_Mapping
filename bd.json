@@ -216,7 +216,7 @@
     "URLBLOCO": "./assets/imgBloco/bloco_k.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_k_terreo.png"
   },
-  "Secretaria de Pós-Graduação": {
+  "secretaria de pós-graduação": {
     "nome": "Secretaria de Pós-Graduação",
     "descricao": "BLOCO K",
     "info": "",
@@ -868,7 +868,7 @@
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_c_1.png"
   },
-  "Departamentos Acadêmicos": {
+  "departamentos acadêmicos": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
@@ -959,7 +959,7 @@
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_d_terreo.png"
   },
-  "Divisão de Patrimônio": {
+  "divisão de patrimônio": {
     "nome": "",
     "descricao": "BLOCO A",
     "info": "",
@@ -1022,12 +1022,160 @@
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
     "URLPISO": "./assets/imgPISO/bloco_b_1.png"
   },
-
-  "Ambulatório": {
+  "ambulatório": {
     "nome": "Ambulatório Médico e Odontológico",
     "descricao": "BLOCO A",
     "info": "",
     "URLBLOCO": "./assets/imgBloco/bloco_a.jpeg",
     "URLPISO": "/assets/imgPISO/bloco_b_1.png"
+  },
+  "professores de linguas": {
+    "nome": "Sala 05",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
+  },
+  "NAI 1": {
+    "nome": "Lab. de Braille",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
+  },
+  "HOTEC 2": {
+    "nome": "Sala 02",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
+  },
+  "NAI 2": {
+    "nome": "Lab. de Libras",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
+  },
+  "HOTEC 4": {
+    "nome": "Sala 04",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_terreo.png"
+  },
+
+  "CALEM 1": {
+    "nome": "Sala de Aula Teórica I",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_1.png"
+  },
+  "CALEM II": {
+    "nome": "CALEM II",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_1.png"
+  },
+  "GEREP2": {
+    "nome": "Núcleo de Educação a Distância",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_1.png"
+  },
+  "CALEM 2": {
+    "nome": "Sala de Professores - CALEM",
+    "descricao": "BLOCO L",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/calem.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_l_1.png"
+  },
+
+  "ninho de pardais 1": {
+    "nome": "Sala de Aula",
+    "descricao": "BLOCO M",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
+  },
+  "ninho de pardais 2": {
+    "nome": "Lab. de Protótipos",
+    "descricao": "BLOCO M",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
+  },
+  "ninho de pardais 3": {
+    "nome": "Lab. de Oficinas de Robótica",
+    "descricao": "BLOCO M",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
+  },
+  "ninho de pardais 4": {
+    "nome": "Lab. de Desenvolvimento",
+    "descricao": "BLOCO M",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
+  },
+  "ninho de pardais 5": {
+    "nome": "Coordenação",
+    "descricao": "BLOCO M",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
+  },
+  "ninho de pardais 6": {
+    "nome": "Almoxarifado",
+    "descricao": "BLOCO M",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/ninho_pardais.jpg",
+    "URLPISO": "./assets/imgPISO/bloco_m_terreo.png"
+  },
+  "campo": {
+    "nome": "",
+    "descricao": "Campo de Futebol",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/campo.jpg",
+    "URLPISO": ""
+  },
+  "RU": {
+    "nome": "",
+    "descricao": "Restaurante Universitário",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/restaurante.jpg",
+    "URLPISO": ""
+  },
+  "anfiteatro": {
+    "nome": "",
+    "descricao": "Anfiteatro",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/anfiteatro.jpg",
+    "URLPISO": ""
+  },
+  "quadra": {
+    "nome": "",
+    "descricao": "Quadra de Futebol",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/quadra.jpg",
+    "URLPISO": ""
+  },
+  "academia": {
+    "nome": "",
+    "descricao": "Academia",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/academia.jpg",
+    "URLPISO": ""
+  },
+  "incubadora": {
+    "nome": "",
+    "descricao": "Incubadora",
+    "info": "",
+    "URLBLOCO": "./assets/imgBloco/incubadora.jpg",
+    "URLPISO": ""
   }
 }

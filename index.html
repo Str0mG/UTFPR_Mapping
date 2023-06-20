@@ -57,7 +57,7 @@
         <h2 id="modal-title"></h2>
         <p id="modal-description"></p>
         <p id="modal-floor"></p>
-        <img id="modal-image-floor" src="" alt="Imagem do Andar" />
+        <img id="modal-image-floor" src="" />
       </div>
     </div>
 
@@ -218,6 +218,69 @@
                 <li
                   class="list-group-item"
                   onclick="buscarChaveNoJSON('K001','','Térreo'), closeNav()">
+                  Térreo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- L (calem)-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive">
+              CALEM
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group">
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('CALEM 1','','1° Andar'), closeNav()">
+                  1° Andar
+                </li>
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('NAI 1','','Térreo'), closeNav()">
+                  Térreo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- M (pardais) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix">
+              Ninho dos Pardais
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul class="list-group">
+                <li
+                  class="list-group-item"
+                  onclick="buscarChaveNoJSON('ninho de pardais 1','','Térreo'), closeNav()">
                   Térreo
                 </li>
               </ul>
