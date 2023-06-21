@@ -35,8 +35,8 @@ var blocoA,
 
 const InicializarMapa = pos => {
   var { latitude, longitude } = pos.coords;
-  // latitude = -23.18591;
-  // longitude = -50.65721;
+  latitude = -23.18591;
+  longitude = -50.65721;
 
   if (map === undefined) {
     map = L.map('mapid', {
