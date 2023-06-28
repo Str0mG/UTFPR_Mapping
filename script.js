@@ -59,7 +59,7 @@ const InicializarMapa = pos => {
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     maxZoom: 20,
     attribution:
-      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      '&copy; <a href="https://str0mg.github.io/Mapeamento-UTFPR/">Alan Araújo Oliveira, Gabriel Sporck Trombini, Igor de Oliveira Raphael, Jonathan Marques Christofoleti, Matheus Augusto da Cruz Grossi, Pedro Lemes Costa, Theo Yuji Takanohashi</a>, &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>',
   }).addTo(map);
 
   // you can set .my-div-icon styles in CSS
