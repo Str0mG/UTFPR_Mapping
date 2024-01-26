@@ -1,8 +1,13 @@
-# Mapeamento da Universidade Tecnológica Federal do Paraná - UTFPR - Campus Cornélio Procópio
-O objetivo deste repositório é mapear a UTFPR - Campus Cornélio Procópio, para que seja possível a identificação de salas, laboratórios, banheiros, etc.
+# Mapping of University of Technology - Paraná (UTFPR) - Campus Cornélio Procópio
 
-## Como utilizar
-Para utilizar o mapa, basta acessar o link: https://str0mg.github.io/Mapeamento-UTFPR/
+This project aims to map the UTFPR campus in Cornélio Procópio, in order to facilitate the location of rooms, laboratories, bathrooms, among others.
 
-- No mapa é possivel visualizar os caminhos até o local desejado.
-- Também é possível visualizar o nome de cada sala, laboratório, banheiro. Para isso basta clicar no local desejado.
+## How to use
+
+To use the map, just click on the link below:
+
+[Mapa UTFPR - Campus Cornélio Procópio](https://utfpr-cp-map.netlify.app/)
+
+- The map is divided into 3 floors, which can be selected by clicking on the buttons at the top of the page.
+- To search for a room, just type the name of the room in the search bar and click on the search button.
+- To view the information of a room, just click on it.
