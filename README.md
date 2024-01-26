@@ -6,7 +6,7 @@ The aim of this project is to map the UTFPR campus in Cornélio Procópio, with 
 
 To use the map, just click on the link below:
 
-[Mapa UTFPR - Campus Cornélio Procópio](https://utfpr-cp-map.netlify.app/)
+[Mapa UTFPR - Campus Cornélio Procópio](https://str0mg.github.io/UTFPR_Mapping/)
 
 - The map is divided into 3 floors, which can be selected by clicking on the buttons at the top of the page.
 - To search for a room, just type the name of the room in the search bar and click on the search button.
