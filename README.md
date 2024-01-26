@@ -1,6 +1,6 @@
 # Mapping of University of Technology - Paraná (UTFPR) - Campus Cornélio Procópio
 
-This project aims to map the UTFPR campus in Cornélio Procópio, in order to facilitate the location of rooms, laboratories, bathrooms, among others.
+The aim of this project is to map the UTFPR campus in Cornélio Procópio, with the objective of enhancing the accessibility to various facilities such as classrooms, laboratories, and restrooms.
 
 ## How to use
 
