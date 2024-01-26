@@ -11,3 +11,9 @@ To use the map, just click on the link below:
 - The map is divided into 3 floors, which can be selected by clicking on the buttons at the top of the page.
 - To search for a room, just type the name of the room in the search bar and click on the search button.
 - To view the information of a room, just click on it.
+
+<!-- OBS -->
+
+## OBS
+
+You can only use this map while on the UTFPR campus in Cornélio Procópio because it utilizes GPS to locate you.
